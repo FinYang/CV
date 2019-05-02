@@ -1,0 +1,543 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Rcompenginets}{manual}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=2f709db8a046ae1d056e75c1f3aad31c}{%
+           family={Hyndman},
+           familyi={H\bibinitperiod},
+           given={Rob\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=747deea463385c1de312fe2a982aa726}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Yangzhuoran},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ff4ee460a6e0d2e2a14ba05ad57a2897}
+      \strng{fullhash}{ff4ee460a6e0d2e2a14ba05ad57a2897}
+      \strng{bibnamehash}{ff4ee460a6e0d2e2a14ba05ad57a2897}
+      \strng{authorbibnamehash}{ff4ee460a6e0d2e2a14ba05ad57a2897}
+      \strng{authornamehash}{ff4ee460a6e0d2e2a14ba05ad57a2897}
+      \strng{authorfullhash}{ff4ee460a6e0d2e2a14ba05ad57a2897}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{compenginets: Time series from http://www.comp-engine.org/timeseries/}
+      \field{version}{0.1}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://github.com/robjhyndman/compenginets
+      \endverb
+      \verb{url}
+      \verb https://github.com/robjhyndman/compenginets
+      \endverb
+    \endentry
+    \entry{RMcomp}{manual}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=2f709db8a046ae1d056e75c1f3aad31c}{%
+           family={Hyndman},
+           familyi={H\bibinitperiod},
+           given={Rob\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=361d3461c8bb1e5559d596b5daea43bb}{%
+           family={Akram},
+           familyi={A\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fb7be81f0574878d688bb03f0abb8502}{%
+           family={Bergmeir},
+           familyi={B\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b78ae24e12b0542cb7c21cfc4f364f74}{%
+           family={O'Hara-Wild},
+           familyi={O\bibinithyphendelim W\bibinitperiod},
+           given={Mitchell},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7b79177750e1a9804766acd1040eb4d4}
+      \strng{fullhash}{7b79177750e1a9804766acd1040eb4d4}
+      \strng{bibnamehash}{7b79177750e1a9804766acd1040eb4d4}
+      \strng{authorbibnamehash}{7b79177750e1a9804766acd1040eb4d4}
+      \strng{authornamehash}{7b79177750e1a9804766acd1040eb4d4}
+      \strng{authorfullhash}{7b79177750e1a9804766acd1040eb4d4}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mcomp: Data from the M-Competitions}
+      \field{version}{2.8}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://CRAN.R-project.org/package=Mcomp
+      \endverb
+      \verb{url}
+      \verb https://CRAN.R-project.org/package=Mcomp
+      \endverb
+    \endentry
+    \entry{Rtscompdata}{manual}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=2f709db8a046ae1d056e75c1f3aad31c}{%
+           family={Hyndman},
+           familyi={H\bibinitperiod},
+           given={Rob\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2f709db8a046ae1d056e75c1f3aad31c}
+      \strng{fullhash}{2f709db8a046ae1d056e75c1f3aad31c}
+      \strng{bibnamehash}{2f709db8a046ae1d056e75c1f3aad31c}
+      \strng{authorbibnamehash}{2f709db8a046ae1d056e75c1f3aad31c}
+      \strng{authornamehash}{2f709db8a046ae1d056e75c1f3aad31c}
+      \strng{authorfullhash}{2f709db8a046ae1d056e75c1f3aad31c}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{tscompdata: Time series data from various forecasting competitions}
+      \field{version}{0.0.1}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://github.com/robjhyndman/tscompdata
+      \endverb
+      \verb{url}
+      \verb https://github.com/robjhyndman/tscompdata
+      \endverb
+    \endentry
+    \entry{Rtsdl}{manual}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=2f709db8a046ae1d056e75c1f3aad31c}{%
+           family={Hyndman},
+           familyi={H\bibinitperiod},
+           given={Rob\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=747deea463385c1de312fe2a982aa726}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Yangzhuoran},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ff4ee460a6e0d2e2a14ba05ad57a2897}
+      \strng{fullhash}{ff4ee460a6e0d2e2a14ba05ad57a2897}
+      \strng{bibnamehash}{ff4ee460a6e0d2e2a14ba05ad57a2897}
+      \strng{authorbibnamehash}{ff4ee460a6e0d2e2a14ba05ad57a2897}
+      \strng{authornamehash}{ff4ee460a6e0d2e2a14ba05ad57a2897}
+      \strng{authorfullhash}{ff4ee460a6e0d2e2a14ba05ad57a2897}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{tsdl: Time Series Data Library}
+      \field{version}{0.1.0}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://github.com/FinYang/tsdl
+      \endverb
+      \verb{url}
+      \verb https://github.com/FinYang/tsdl
+      \endverb
+    \endentry
+    \entry{Rtsfeatures}{manual}{}
+      \name{author}{12}{}{%
+        {{uniquename=0,uniquepart=base,hash=2f709db8a046ae1d056e75c1f3aad31c}{%
+           family={Hyndman},
+           familyi={H\bibinitperiod},
+           given={Rob\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=19cdef69ea6e417b04dbe89b2bca786b}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Yanfei},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7a04e9ade70a01d5159c482b28d53fcb}{%
+           family={Montero-Manso},
+           familyi={M\bibinithyphendelim M\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=eb30e5faf7a30a41879e7c3956e3ff41}{%
+           family={Talagala},
+           familyi={T\bibinitperiod},
+           given={Thiyanga},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7325ea25da301caccb3ac5eff724bc95}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Earo},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=747deea463385c1de312fe2a982aa726}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Yangzhuoran},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=43eddde3c0f7ec0931021909de0cfd24}{%
+           family={Ben\bibnamedelima Taieb},
+           familyi={B\bibinitperiod},
+           given={Souhaib},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d1046b2fae64e427ecfaee9ec7eec1a2}{%
+           family={Hanqing},
+           familyi={H\bibinitperiod},
+           given={Cao},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3d86eee5208e095efc8177791a08aa0d}{%
+           family={Lake},
+           familyi={L\bibinitperiod},
+           given={D\bibnamedelima K},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3edebc6c30204bbbcffb396797ba6e28}{%
+           family={Laptev},
+           familyi={L\bibinitperiod},
+           given={Nikolay},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=904c20d41710c831016d1edbed9de6d1}{%
+           family={Moorman},
+           familyi={M\bibinitperiod},
+           given={J\bibnamedelima R},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b78ae24e12b0542cb7c21cfc4f364f74}{%
+           family={O'Hara-Wild},
+           familyi={O\bibinithyphendelim W\bibinitperiod},
+           given={Mitchell},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a688fd65160867bb967bbc635b8579d0}
+      \strng{fullhash}{a688fd65160867bb967bbc635b8579d0}
+      \strng{bibnamehash}{a688fd65160867bb967bbc635b8579d0}
+      \strng{authorbibnamehash}{a688fd65160867bb967bbc635b8579d0}
+      \strng{authornamehash}{a688fd65160867bb967bbc635b8579d0}
+      \strng{authorfullhash}{a688fd65160867bb967bbc635b8579d0}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{tsfeatures: Time Series Feature Extraction}
+      \field{version}{1.0.1}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://CRAN.R-project.org/package=tsfeatures
+      \endverb
+      \verb{url}
+      \verb https://CRAN.R-project.org/package=tsfeatures
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{ynt/global//global/global}
+    \entry{Rtscompdata}{manual}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=2f709db8a046ae1d056e75c1f3aad31c}{%
+           family={Hyndman},
+           familyi={H\bibinitperiod},
+           given={Rob\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2f709db8a046ae1d056e75c1f3aad31c}
+      \strng{fullhash}{2f709db8a046ae1d056e75c1f3aad31c}
+      \strng{bibnamehash}{2f709db8a046ae1d056e75c1f3aad31c}
+      \strng{authorbibnamehash}{2f709db8a046ae1d056e75c1f3aad31c}
+      \strng{authornamehash}{2f709db8a046ae1d056e75c1f3aad31c}
+      \strng{authorfullhash}{2f709db8a046ae1d056e75c1f3aad31c}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{tscompdata: Time series data from various forecasting competitions}
+      \field{version}{0.0.1}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://github.com/robjhyndman/tscompdata
+      \endverb
+      \verb{url}
+      \verb https://github.com/robjhyndman/tscompdata
+      \endverb
+    \endentry
+    \entry{RMcomp}{manual}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=2f709db8a046ae1d056e75c1f3aad31c}{%
+           family={Hyndman},
+           familyi={H\bibinitperiod},
+           given={Rob\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=361d3461c8bb1e5559d596b5daea43bb}{%
+           family={Akram},
+           familyi={A\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fb7be81f0574878d688bb03f0abb8502}{%
+           family={Bergmeir},
+           familyi={B\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b78ae24e12b0542cb7c21cfc4f364f74}{%
+           family={O'Hara-Wild},
+           familyi={O\bibinithyphendelim W\bibinitperiod},
+           given={Mitchell},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7b79177750e1a9804766acd1040eb4d4}
+      \strng{fullhash}{7b79177750e1a9804766acd1040eb4d4}
+      \strng{bibnamehash}{7b79177750e1a9804766acd1040eb4d4}
+      \strng{authorbibnamehash}{7b79177750e1a9804766acd1040eb4d4}
+      \strng{authornamehash}{7b79177750e1a9804766acd1040eb4d4}
+      \strng{authorfullhash}{7b79177750e1a9804766acd1040eb4d4}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mcomp: Data from the M-Competitions}
+      \field{version}{2.8}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://CRAN.R-project.org/package=Mcomp
+      \endverb
+      \verb{url}
+      \verb https://CRAN.R-project.org/package=Mcomp
+      \endverb
+    \endentry
+    \entry{Rtsdl}{manual}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=2f709db8a046ae1d056e75c1f3aad31c}{%
+           family={Hyndman},
+           familyi={H\bibinitperiod},
+           given={Rob\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=747deea463385c1de312fe2a982aa726}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Yangzhuoran},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ff4ee460a6e0d2e2a14ba05ad57a2897}
+      \strng{fullhash}{ff4ee460a6e0d2e2a14ba05ad57a2897}
+      \strng{bibnamehash}{ff4ee460a6e0d2e2a14ba05ad57a2897}
+      \strng{authorbibnamehash}{ff4ee460a6e0d2e2a14ba05ad57a2897}
+      \strng{authornamehash}{ff4ee460a6e0d2e2a14ba05ad57a2897}
+      \strng{authorfullhash}{ff4ee460a6e0d2e2a14ba05ad57a2897}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{tsdl: Time Series Data Library}
+      \field{version}{0.1.0}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://github.com/FinYang/tsdl
+      \endverb
+      \verb{url}
+      \verb https://github.com/FinYang/tsdl
+      \endverb
+    \endentry
+    \entry{Rtsfeatures}{manual}{}
+      \name{author}{12}{}{%
+        {{uniquename=0,uniquepart=base,hash=2f709db8a046ae1d056e75c1f3aad31c}{%
+           family={Hyndman},
+           familyi={H\bibinitperiod},
+           given={Rob\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=19cdef69ea6e417b04dbe89b2bca786b}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Yanfei},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7a04e9ade70a01d5159c482b28d53fcb}{%
+           family={Montero-Manso},
+           familyi={M\bibinithyphendelim M\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=eb30e5faf7a30a41879e7c3956e3ff41}{%
+           family={Talagala},
+           familyi={T\bibinitperiod},
+           given={Thiyanga},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7325ea25da301caccb3ac5eff724bc95}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Earo},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=747deea463385c1de312fe2a982aa726}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Yangzhuoran},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=43eddde3c0f7ec0931021909de0cfd24}{%
+           family={Ben\bibnamedelima Taieb},
+           familyi={B\bibinitperiod},
+           given={Souhaib},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d1046b2fae64e427ecfaee9ec7eec1a2}{%
+           family={Hanqing},
+           familyi={H\bibinitperiod},
+           given={Cao},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3d86eee5208e095efc8177791a08aa0d}{%
+           family={Lake},
+           familyi={L\bibinitperiod},
+           given={D\bibnamedelima K},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3edebc6c30204bbbcffb396797ba6e28}{%
+           family={Laptev},
+           familyi={L\bibinitperiod},
+           given={Nikolay},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=904c20d41710c831016d1edbed9de6d1}{%
+           family={Moorman},
+           familyi={M\bibinitperiod},
+           given={J\bibnamedelima R},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b78ae24e12b0542cb7c21cfc4f364f74}{%
+           family={O'Hara-Wild},
+           familyi={O\bibinithyphendelim W\bibinitperiod},
+           given={Mitchell},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a688fd65160867bb967bbc635b8579d0}
+      \strng{fullhash}{a688fd65160867bb967bbc635b8579d0}
+      \strng{bibnamehash}{a688fd65160867bb967bbc635b8579d0}
+      \strng{authorbibnamehash}{a688fd65160867bb967bbc635b8579d0}
+      \strng{authornamehash}{a688fd65160867bb967bbc635b8579d0}
+      \strng{authorfullhash}{a688fd65160867bb967bbc635b8579d0}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{tsfeatures: Time Series Feature Extraction}
+      \field{version}{1.0.1}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://CRAN.R-project.org/package=tsfeatures
+      \endverb
+      \verb{url}
+      \verb https://CRAN.R-project.org/package=tsfeatures
+      \endverb
+    \endentry
+    \entry{Rcompenginets}{manual}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=2f709db8a046ae1d056e75c1f3aad31c}{%
+           family={Hyndman},
+           familyi={H\bibinitperiod},
+           given={Rob\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=747deea463385c1de312fe2a982aa726}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Yangzhuoran},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ff4ee460a6e0d2e2a14ba05ad57a2897}
+      \strng{fullhash}{ff4ee460a6e0d2e2a14ba05ad57a2897}
+      \strng{bibnamehash}{ff4ee460a6e0d2e2a14ba05ad57a2897}
+      \strng{authorbibnamehash}{ff4ee460a6e0d2e2a14ba05ad57a2897}
+      \strng{authornamehash}{ff4ee460a6e0d2e2a14ba05ad57a2897}
+      \strng{authorfullhash}{ff4ee460a6e0d2e2a14ba05ad57a2897}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{compenginets: Time series from http://www.comp-engine.org/timeseries/}
+      \field{version}{0.1}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://github.com/robjhyndman/compenginets
+      \endverb
+      \verb{url}
+      \verb https://github.com/robjhyndman/compenginets
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

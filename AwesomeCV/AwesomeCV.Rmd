@@ -1,0 +1,142 @@
+---
+name: Yangzhuoran Yang
+position: "Honours Student"
+address: "Monash University, Australia"
+phone: +61 414 060 712
+www: yangzhuoranyang.com
+email: "Fin.Yang@monash.edu"
+twitter: YangzhuoranY
+github: FinYang
+linkedin: yangzhuoranyang
+headcolor: 414141
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tidyverse)
+```
+
+```{r Rpackages, eval=FALSE}
+# Construct bib file for R packages
+source("Rpackages.R")
+write_packages_bib(
+  pkglist = c("tsfeatures",
+              "Mcomp",
+              "tscompdata", 
+              "tsdl", 
+              # "stocon",
+              "compenginets"),
+  file="Rpackages.bib")
+```
+
+# Education
+
+```{r}
+tribble(
+  ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
+  "Bachelor of Commerce (Hons) in Econometrics", "Monash University", "Clayton, Australia", "Feb. 2019 - Present", "Thesis: Optimal portfolio selection via dimensional reduction in a stochastic optimal control setting",
+  "Bachelor of Actuarial Science", "Monash University", "Clayton, Australia", "Jul. 2016 - Jul. 2018", "GPA of 4, WAM of 90.323", 
+  "Bachelor of Finance", "Henan University", "Kaifeng, China", "Sep. 2014 - Present", "GPA of 3.940"
+) %>% 
+
+  detailed_entries(degree, dates, uni, loc, details)
+
+```
+
+# Experience
+
+```{r}
+
+tribble(
+  ~ role, ~ company, ~ loc, ~ dates, ~ details,
+
+  "Teaching Associate", "Monash University", "Clayton, Australia", "Mar. 2019 - Present", "Business and economic statistics (ETC1000)",
+  
+  "Research Assistant", "Monash University", "Clayton, Australia", "Jan. 2016 - Present", "Responsibilities including developments of R packages and data manipulation",
+  
+  "Research Assistant", "Monash University", "Clayton, Australia", "Jan. 2016 - Present", "Concepts involving time series, financial data, dimension reduction and stochastic optimization",
+  
+  "Research Assistant", "Monash University", "Clayton, Australia", "Jan. 2016 - Present", "Supervisors include Dr Bonsoo Koo, Dr Dan Zhu, and Professor Rob Hyndman",
+  
+    "Private tutor", "ACIC", "Clayton, Australia", "Sep. 2017 - Present", "Introductory Econometrics, Actuarial Statistics, Probability and statistical inference for economics and business, Applied econometrics and Financial Econometric",
+  
+    "Teaching Associate", "Monash University", "Clayton, Australia", "Jul. 2017 - Nov. 2017", "Introduction to financial accounting (ACC1100)",
+  
+      "Private tutor", "HDEDU", "Clayton, Australia", "Feb. 2017 - Sep. 2017", "Introductory Econometrics and Actuarial Statistics"
+
+
+
+
+
+) %>% 
+
+  detailed_entries(role, dates, company, loc, details)
+
+```
+
+\pagebreak
+
+# Awards
+
+
+* 2019 Monash University Econometrics Honours Memorial Scholarship
+
+* 2018 Monash Business School Prize for the Top Achieving Student in Actuarial Science (Undergraduate) 
+
+* 2018 Monash University Medal for Undergraduate Academic Excellence
+
+* 2018 Monash Business School Dean's Honour
+
+* 2018 Monash Business School Student Excellence Award in recognition of exceptional academic excellence in:  
+
+  - Business analytics
+  - Modelling in finance and insurance
+  - Applied forecasting for business and economics
+
+* 2018 The International Institute of Forecasters Student Forecasting Award 
+    offered by Monash University Applied Forecasting for Business and Economics 
+
+* 2017 Monash Business School Student Excellence Award in recognition of exceptional academic excellence in:  
+
+  - Statistical Thinking
+  - Principles of Econometrics
+  - Contingencies in insurance and pensions
+  
+* 2016 Henan University Undergraduate Scholarship 
+
+* 2016 Henan University Outstanding Student Award
+
+```{r, eval = F}
+
+tribble(
+  ~ award, ~ from, ~ year, ~details,
+  "Monash University Econometrics Honours Memorial Scholarship", "Monash", "2019", NA,
+  "Monash Business School Prize for the Top Achieving Student in Actuarial Science (Undergraduate)", "Monash", "2018", NA,
+  "Monash University Medal for Undergraduate Academic Excellence", "Monash", "2018", NA,
+    "Monash Business School Student Excellence Award in recognition of exceptional academic excellence in:", "Monash", "2018", "Business analytics", 
+      "Monash Business School Student Excellence Award in recognition of exceptional academic excellence in:", "Monash", "2018", "Modelling in finance and insurance", 
+      "Monash Business School Student Excellence Award in recognition of exceptional academic excellence in:", "Monash", "2018", "Applied forecasting for business and economics", 
+  "The International Institute of Forecasters Student Forecasting Award o", "IIF", "2018", NA,
+    "Monash Business School Student Excellence Award in recognition of exceptional academic excellence in:", "Monash", "2017", "Statistical Thinking", 
+      "Monash Business School Student Excellence Award in recognition of exceptional academic excellence in:", "Monash", "2017", "Principles of Econometrics", 
+      "Monash Business School Student Excellence Award in recognition of exceptional academic excellence in:", "Monash", "2017", "Contingencies in insurance and pensions"
+) %>%
+  brief_entries(gsub("NA", "", paste0(award, details)), year, from)
+
+```
+
+
+# Software (R packages)
+
+R packages that I've contributed or co-authored.
+
+```{r r-packages}
+# Sort R packages by title, then year.
+bibliography_entries("Rpackages.bib",
+  startlabel = "packagestart", endlabel = "packageend"
+) %>%
+  arrange(title, year)
+```
