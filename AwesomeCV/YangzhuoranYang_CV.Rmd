@@ -27,7 +27,7 @@ write_packages_bib(
               "Mcomp",
               "tscompdata", 
               "tsdl", 
-              # "stocon",
+               "stocon",
               "compenginets"),
   file="Rpackages.bib")
 ```

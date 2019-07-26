@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.5.2)  2 MAY 2019 14:14
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.5.2)  26 JUL 2019 10:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1460,11 +1460,11 @@ SourceSansPro(1)/m/n/10 . Version 0.0.1. []$[][][][][] [] [] [] [][][][][][] []
  []
 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 255.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 255.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 256.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 256.
 (./YangzhuoranYang_CV.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 255.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 255.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 256.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 256.
 Package rerunfilecheck Info: File `YangzhuoranYang_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
 
@@ -1479,10 +1479,10 @@ Package logreq Info: Writing requests to 'YangzhuoranYang_CV.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46598 strings out of 494900
- 922751 string characters out of 6175726
- 1469470 words of memory out of 5000000
- 49934 multiletter control sequences out of 15000+600000
+ 46602 strings out of 494900
+ 922921 string characters out of 6175726
+ 1469494 words of memory out of 5000000
+ 49938 multiletter control sequences out of 15000+600000
  537150 words of font info for 114 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  72i,11n,109p,1111b,5016s stack positions out of 5000i,500n,10000p,200000b,80000s
