@@ -61,7 +61,7 @@ tribble(
   
   "Research Assistant", "Monash University", "Clayton, Australia", "Jan. 2016 - Present", "Supervisors include Dr Bonsoo Koo, Dr Dan Zhu, and Professor Rob Hyndman",
   
-    "Private tutor", "ACIC", "Clayton, Australia", "Sep. 2017 - Present", "Introductory Econometrics, Actuarial Statistics, Probability and statistical inference for economics and business, Applied econometrics and Financial Econometric",
+    "Private tutor", "Australia Ultimate Services", "Clayton, Australia", "Sep. 2017 - Jul. 2019", "Introductory Econometrics, Actuarial Statistics, Probability and statistical inference for economics and business, Applied econometrics and Financial Econometric",
   
     "Teaching Associate", "Monash University", "Clayton, Australia", "Jul. 2017 - Nov. 2017", "Introduction to financial accounting (ACC1100)",
   
