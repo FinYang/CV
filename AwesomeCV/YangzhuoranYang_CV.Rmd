@@ -28,7 +28,8 @@ write_packages_bib(
               "tscompdata", 
               "tsdl", 
                "stocon",
-              "compenginets"),
+              "compenginets", 
+              "lazytype"),
   file="Rpackages.bib")
 ```
 
