@@ -56,6 +56,8 @@ tribble(
 tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
 
+  "Visiting Student", "ShanghaiTech University SIST", "Shanghai, China", "Dec. 2019 - Feb. 2020", "Supervisor: Professor Ziping Zhao",
+  
   "Teaching Associate", "Monash University", "Clayton, Australia", "Mar. 2019 - Present", "Business and economic statistics (ETC1000)",
   
   "Research Assistant", "Monash University", "Clayton, Australia", "Jan. 2016 - Present", "Responsibilities including developments of R packages and data manipulation",
