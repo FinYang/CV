@@ -1,6 +1,6 @@
 ---
-name: Yangzhuoran Yang
-position: "Honours Student"
+name: Yangzhuoran Fin Yang
+position: "Research Assistant"
 address: "Monash University, Australia"
 phone: +61 414 060 712
 www: yangzhuoranyang.com
@@ -23,7 +23,8 @@ library(tidyverse)
 # Construct bib file for R packages
 source("Rpackages.R")
 write_packages_bib(
-  pkglist = c("tsfeatures",
+  pkglist = c("RRRR", 
+              "tsfeatures",
               "Mcomp",
               "tscompdata", 
               "tsdl", 
@@ -41,6 +42,7 @@ write_packages_bib(
 tribble(
   ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
   "Bachelor of Commerce (Hons) in Econometrics", "Monash University", "Clayton, Australia", "Feb. 2019 - Present", "Thesis: Optimal portfolio selection via dimensional reduction in a stochastic optimal control setting",
+  "Bachelor of Commerce (Hons) in Econometrics", "Monash University", "Clayton, Australia", "Feb. 2019 - Present", "GPA of 3.875, GRADE H1",
   "Bachelor of Actuarial Science", "Monash University", "Clayton, Australia", "Jul. 2016 - Jul. 2018", "GPA of 4, WAM of 90.323", 
   "Bachelor of Finance", "Henan University", "Kaifeng, China", "Sep. 2014 - Present", "GPA of 3.940"
 ) %>% 
