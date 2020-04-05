@@ -1,6 +1,6 @@
 ---
 name: Yangzhuoran Fin Yang
-position: "Research Assistant"
+position: "PhD Student"
 address: "Monash University, Australia"
 phone: +61 414 060 712
 www: yangzhuoranyang.com
@@ -41,10 +41,33 @@ write_packages_bib(
 ```{r}
 tribble(
   ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
-  "Bachelor of Commerce (Hons) in Econometrics", "Monash University", "Clayton, Australia", "Feb. 2019 - Present", "Thesis: Optimal portfolio selection via dimensional reduction in a stochastic optimal control setting",
-  "Bachelor of Commerce (Hons) in Econometrics", "Monash University", "Clayton, Australia", "Feb. 2019 - Present", "GPA of 3.875, GRADE H1",
-  "Bachelor of Actuarial Science", "Monash University", "Clayton, Australia", "Jul. 2016 - Jul. 2018", "GPA of 4, WAM of 90.323", 
-  "Bachelor of Finance", "Henan University", "Kaifeng, China", "Sep. 2014 - Present", "GPA of 3.940"
+  "Doctor of Philosophy in Statistics", 
+  "Monash University", "Clayton, Australia", 
+  "Apr. 2020 - Present", 
+  "Forecast reconciliation with linear combinations",
+  
+  "Bachelor of Commerce (Hons) in Econometrics", 
+  "Monash University", "Clayton, Australia", 
+  "Feb. 2019 - Nov. 2019", 
+  "Thesis: Optimal portfolio selection via dimensional reduction in a stochastic optimal control setting",
+  
+  "Bachelor of Commerce (Hons) in Econometrics", 
+  "Monash University", 
+  "Clayton, Australia", 
+  "Feb. 2019 - Nov. 2019", 
+  "GPA of 3.875, GRADE H1",
+  
+  "Bachelor of Actuarial Science", 
+  "Monash University", 
+  "Clayton, Australia", 
+  "Jul. 2016 - Jul. 2018", 
+  "GPA of 4, WAM of 90.323", 
+  
+  "Bachelor of Finance",
+  "Henan University", 
+  "Kaifeng, China", 
+  "Sep. 2014 - Present", 
+  "GPA of 3.940"
 ) %>% 
 
   detailed_entries(degree, dates, uni, loc, details)
@@ -58,21 +81,53 @@ tribble(
 tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
 
-  "Visiting Student", "ShanghaiTech University SIST", "Shanghai, China", "Dec. 2019 - Feb. 2020", "Supervisor: Professor Ziping Zhao",
+  "Visiting Student", 
+  "ShanghaiTech University SIST",
+  "Shanghai, China", 
+  "Dec. 2019 - Feb. 2020", 
+  "Supervisor: Professor Ziping Zhao",
   
-  "Teaching Associate", "Monash University", "Clayton, Australia", "Mar. 2019 - Present", "Business and economic statistics (ETC1000)",
+  "Teaching Associate", 
+  "Monash University", 
+  "Clayton, Australia", 
+  "Mar. 2019 - Present", 
+  "Business and economic statistics (ETC1000)",
   
-  "Research Assistant", "Monash University", "Clayton, Australia", "Jan. 2016 - Present", "Responsibilities including developments of R packages and data manipulation",
+  "Research Assistant", 
+  "Monash University", 
+  "Clayton, Australia", 
+  "Jan. 2016 - Present", 
+  "Responsibilities including developments of R packages and data manipulation",
   
-  "Research Assistant", "Monash University", "Clayton, Australia", "Jan. 2016 - Present", "Concepts involving time series, financial data, dimension reduction and stochastic optimization",
+  "Research Assistant", 
+  "Monash University", 
+  "Clayton, Australia", 
+  "Jan. 2016 - Present", 
+  "Concepts involving time series, financial data, dimension reduction and stochastic optimization",
   
-  "Research Assistant", "Monash University", "Clayton, Australia", "Jan. 2016 - Present", "Supervisors include Dr Bonsoo Koo, Dr Dan Zhu, and Professor Rob Hyndman",
+  "Research Assistant", 
+  "Monash University", 
+  "Clayton, Australia", 
+  "Jan. 2016 - Present", 
+  "Supervisors include Dr Bonsoo Koo, Dr Dan Zhu, and Professor Rob Hyndman",
   
-    "Private tutor", "Australia Ultimate Services", "Clayton, Australia", "Sep. 2017 - Jul. 2019", "Introductory Econometrics, Actuarial Statistics, Probability and statistical inference for economics and business, Applied econometrics and Financial Econometric",
+  "Private tutor", 
+  "Australia Ultimate Services", 
+  "Clayton, Australia", 
+  "Sep. 2017 - Jul. 2019", 
+  "Introductory Econometrics, Actuarial Statistics, Probability and statistical inference for economics and business, Applied econometrics and Financial Econometric",
   
-    "Teaching Associate", "Monash University", "Clayton, Australia", "Jul. 2017 - Nov. 2017", "Introduction to financial accounting (ACC1100)",
+  "Teaching Associate", 
+  "Monash University", 
+  "Clayton, Australia", 
+  "Jul. 2017 - Nov. 2017", 
+  "Introduction to financial accounting (ACC1100)",
   
-      "Private tutor", "HDEDU", "Clayton, Australia", "Feb. 2017 - Sep. 2017", "Introductory Econometrics and Actuarial Statistics"
+  "Private tutor", 
+  "HDEDU",
+  "Clayton, Australia", 
+  "Feb. 2017 - Sep. 2017", 
+  "Introductory Econometrics and Actuarial Statistics"
 
 
 
