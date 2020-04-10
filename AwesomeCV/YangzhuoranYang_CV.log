@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.2.29)  5 APR 2020 14:00
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.2.29)  10 APR 2020 15:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1367,19 +1367,19 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 249.
 
-Overfull \hbox (37.59401pt too wide) in paragraph at lines 249--249
-[][] [][][]\TU/SourceSansPro(1)/m/n/10 Yang, Y (2020). \TU/SourceSansPro(0)/m/i
-t/10 lazytype: Functions and Addins to save keystrokes and clicks\TU/SourceSans
-Pro(1)/m/n/10 . Version 0.0.0.9000. []$[][][][][] [] [] [] [][][] [] [][][][][]
-[][][][][][][][][][] []
+Overfull \hbox (42.53401pt too wide) in paragraph at lines 249--249
+[][] [][][]\TU/SourceSansPro(1)/m/n/10 Yang, YF (2020). \TU/SourceSansPro(0)/m/
+it/10 lazytype: Functions and Addins to save keystrokes and clicks\TU/SourceSan
+sPro(1)/m/n/10 . Version 0.0.0.9000. []$[][][][][] [] [] [] [][][] [] [][][][][
+][][][][][][][][][][] []
  []
 
 
-Overfull \hbox (20.164pt too wide) in paragraph at lines 249--249
-[][] [][][]\TU/SourceSansPro(1)/m/n/10 Yang, Y (2019). \TU/SourceSansPro(0)/m/i
-t/10 stocon: Portfolio selection in a Stochastic control setting\TU/SourceSansP
-ro(1)/m/n/10 . Version 0.0.0.9000. []$[][][][][] [] [] [] [][][] [] [][][][][][
-][][][][][][][][][] []
+Overfull \hbox (25.104pt too wide) in paragraph at lines 249--249
+[][] [][][]\TU/SourceSansPro(1)/m/n/10 Yang, YF (2019). \TU/SourceSansPro(0)/m/
+it/10 stocon: Portfolio selection in a Stochastic control setting\TU/SourceSans
+Pro(1)/m/n/10 . Version 0.0.0.9000. []$[][][][][] [] [] [] [][][] [] [][][][][]
+[][][][][][][][][][] []
  []
 
 
@@ -1388,13 +1388,6 @@ Overfull \hbox (2.614pt too wide) in paragraph at lines 249--249
 /m/it/10 tscompdata: Time series data from various forecasting competitions\TU/
 SourceSansPro(1)/m/n/10 . Version 0.0.1. []$[][][][][] [] [] [] [][][][][][] []
 
- []
-
-
-Overfull \hbox (2.22607pt too wide) in paragraph at lines 249--249
-[][] [][][]\TU/SourceSansPro(1)/m/n/10 Koo, B, N Tomasetti, KY Goh, and Y Yang 
-(2020). \TU/SourceSansPro(0)/m/it/10 ycevo: Non-Parametric Estimation of the Yi
-eld Curve Evolution\TU/SourceSansPro(1)/m/n/10 . Version 1.0.0.
  []
 
 [2]
@@ -1418,8 +1411,8 @@ Package logreq Info: Writing requests to 'YangzhuoranYang_CV.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  38899 strings out of 481790
- 776863 string characters out of 5935710
- 1581522 words of memory out of 5000000
+ 776860 string characters out of 5935710
+ 1581521 words of memory out of 5000000
  55295 multiletter control sequences out of 15000+600000
  537255 words of font info for 120 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191

@@ -67,6 +67,8 @@ getbibentry <- function(pkg)
   # Add J to my name
   meta$Author <- gsub("Rob Hyndman","Rob J Hyndman",meta$Author)
   
+  meta$Author <- gsub("Yangzhuoran Yang","Yangzhuoran Fin Yang",meta$Author)
+  
   # Fix Souhaib's name
   meta$Author <- gsub("Ben Taieb", "Ben~Taieb", meta$Author)
   
