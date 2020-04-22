@@ -28,9 +28,10 @@ write_packages_bib(
               "Mcomp",
               "tscompdata", 
               "tsdl", 
-               "stocon",
+              "stocon",
               "compenginets", 
               "lazytype", 
+              "lazybar",
               "ycevo", 
               "demography"),
   file="Rpackages.bib")
@@ -63,11 +64,11 @@ tribble(
   "Jul. 2016 - Jul. 2018", 
   "GPA of 4, WAM of 90.323", 
   
-  "Bachelor of Finance",
-  "Henan University", 
-  "Kaifeng, China", 
-  "Sep. 2014 - Present", 
-  "GPA of 3.940"
+  # "Bachelor of Finance",
+  # "Henan University", 
+  # "Kaifeng, China", 
+  # "Sep. 2014 - Present", 
+  # "GPA of 3.940"
 ) %>% 
 
   detailed_entries(degree, dates, uni, loc, details)
