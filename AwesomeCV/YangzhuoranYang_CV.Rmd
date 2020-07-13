@@ -86,7 +86,7 @@ tribble(
   "Visiting Student", 
   "ShanghaiTech University SIST",
   "Shanghai, China", 
-  "Dec. 2019 - Feb. 2020", 
+  "Dec. 2019 - Aug. 2020", 
   "Supervisor: Professor Ziping Zhao",
   
   "Teaching Associate", 
@@ -94,6 +94,12 @@ tribble(
   "Clayton, Australia", 
   "Mar. 2019 - Present", 
   "Business and economic statistics (ETC1000)",
+
+  "Teaching Associate", 
+  "Monash University", 
+  "Clayton, Australia", 
+  "Mar. 2019 - Present", 
+  "Applied econometrics (ETC3410)",
   
   "Research Assistant", 
   "Monash University", 
@@ -146,7 +152,8 @@ tribble(
 ```{r}
 # pubs <- ReadBib("publications.bib", check = FALSE)
 bibliography_entries("publications.bib") %>%
-  arrange(year, surnames)
+  arrange(year, surnames) %>% 
+  `rownames<-`(NULL)
 ```
 
 
@@ -154,6 +161,9 @@ bibliography_entries("publications.bib") %>%
 
 # Awards
 
+* 2019 Monash Business School Dean's Honour
+
+<!-- * 2019 Monash Business School Co-funded Graduate Research Scholarship -->
 
 * 2019 Monash University Econometrics Honours Memorial Scholarship
 
