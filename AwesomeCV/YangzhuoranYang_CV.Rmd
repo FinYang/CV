@@ -104,19 +104,19 @@ tribble(
   "Research Assistant", 
   "Monash University", 
   "Clayton, Australia", 
-  "Jan. 2016 - Present", 
+  "Sep. 2017 - Present", 
   "Responsibilities including developments of R packages and data manipulation",
   
   "Research Assistant", 
   "Monash University", 
   "Clayton, Australia", 
-  "Jan. 2016 - Present", 
+  "Sep. 2017 - Present", 
   "Concepts involving time series, financial data, dimension reduction and stochastic optimization",
   
   "Research Assistant", 
   "Monash University", 
   "Clayton, Australia", 
-  "Jan. 2016 - Present", 
+  "Sep. 2017 - Present", 
   "Supervisors include Dr Bonsoo Koo, Dr Dan Zhu, and Professor Rob Hyndman",
   
   "Private tutor", 
