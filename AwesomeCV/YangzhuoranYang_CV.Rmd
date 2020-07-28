@@ -123,7 +123,7 @@ tribble(
   "Australia Ultimate Services", 
   "Clayton, Australia", 
   "Sep. 2017 - Jul. 2019", 
-  "Introductory Econometrics, Actuarial Statistics, Probability and statistical inference for economics and business, Applied econometrics and Financial Econometric",
+  "Introductory econometrics, Actuarial statistics, Probability and statistical inference for economics and business, Applied econometrics and Financial econometric",
   
   "Teaching Associate", 
   "Monash University", 
@@ -135,7 +135,7 @@ tribble(
   "HDEDU",
   "Clayton, Australia", 
   "Feb. 2017 - Sep. 2017", 
-  "Introductory Econometrics and Actuarial Statistics"
+  "Introductory econometrics and Actuarial statistics"
 
 
 
@@ -223,3 +223,36 @@ bibliography_entries("Rpackages.bib",
 ) %>%
   arrange(title, year)
 ```
+
+
+<!-- 
+
+\pagebreak 
+
+# Referees
+
+```{r}
+tribble(
+  ~ name, ~ uni, ~ loc, ~ dates, ~ details,
+  "Professor Rob J Hyndman", 
+  "Monash University", "Professor", 
+  "Clayton, Australia", 
+  "Email: Rob.Hyndman@monash.edu",
+  
+  "Dr Dan Zhu", 
+  "Monash University", "Senior Lecturer", 
+  "Clayton, Australia", 
+  "Email: Dan.Zhu@monash.edu",
+  
+  "Assoc Professor Bonsoo Koo", 
+  "Monash University", "Associate Professor", 
+  "Clayton, Australia", 
+  "Email: Bonsoo.Koo@monash.edu",
+  
+
+) %>% 
+
+  detailed_entries(loc, dates, name, uni, details)
+```
+
+-->
