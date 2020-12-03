@@ -50,25 +50,25 @@ tribble(
   
   "Bachelor of Commerce (Hons) in Econometrics", 
   "Monash University", "Clayton, Australia", 
-  "Feb. 2019 - Nov. 2019", 
+  "Mar. 2019 - Dec. 2019", 
   "Thesis: Optimal portfolio selection via dimensional reduction in a stochastic optimal control setting",
   
   "Bachelor of Commerce (Hons) in Econometrics", 
   "Monash University", 
   "Clayton, Australia", 
-  "Feb. 2019 - Nov. 2019", 
+  "Mar. 2019 - Dec. 2019", 
   "GPA of 3.875, GRADE H1",
   
   "Bachelor of Actuarial Science", 
   "Monash University", 
   "Clayton, Australia", 
-  "Jul. 2016 - Jul. 2018", 
+  "Jul. 2016 - Oct. 2018", 
   "GPA of 4, WAM of 90.323", 
   
-  # "Bachelor of Finance",
-  # "Henan University", 
-  # "Kaifeng, China", 
-  # "Sep. 2014 - Present", 
+  # "First two years of Bachelor in Finance",
+  # "Henan University",
+  # "Kaifeng, China",
+  # "Sep. 2014 - Jul. 2016",
   # "GPA of 3.940"
 ) %>% 
 
@@ -83,58 +83,70 @@ tribble(
 tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
 
-  "Visiting Student", 
+  "Adjunct Lecturer", 
+  "Monash University",
+  "Suzhou, China", 
+  "Oct. 2020 - Present", 
+  "Suzhou Industrial Park Monash Research Institute of Science and Techology",
+  
+  
+  "Visiting Student",
   "ShanghaiTech University SIST",
-  "Shanghai, China", 
-  "Dec. 2019 - Aug. 2020", 
+  "Shanghai, China",
+  "Dec. 2019 - Aug. 2020",
   "Supervisor: Professor Ziping Zhao",
   
+  
+  ####
   "Teaching Associate", 
   "Monash University", 
   "Clayton, Australia", 
-  "Mar. 2019 - Present", 
+  "Feb. 2019 - Sep. 2020", 
   "Business and economic statistics (ETC1000)",
 
   "Teaching Associate", 
   "Monash University", 
   "Clayton, Australia", 
-  "Mar. 2019 - Present", 
+  "Feb. 2019 - Sep. 2020", 
   "Applied econometrics (ETC3410)",
   
+  ####
   "Research Assistant", 
   "Monash University", 
   "Clayton, Australia", 
-  "Sep. 2017 - Present", 
+  "Sep. 2017 - Aug. 2020", 
   "Responsibilities including developments of R packages and data manipulation",
   
   "Research Assistant", 
   "Monash University", 
   "Clayton, Australia", 
-  "Sep. 2017 - Present", 
+  "Sep. 2017 - Aug. 2020", 
   "Concepts involving time series, financial data, dimension reduction and stochastic optimization",
   
   "Research Assistant", 
   "Monash University", 
   "Clayton, Australia", 
-  "Sep. 2017 - Present", 
+  "Sep. 2017 - Aug. 2020", 
   "Supervisors include Dr Bonsoo Koo, Dr Dan Zhu, and Professor Rob Hyndman",
   
+  ####
   "Private tutor", 
-  "Australia Ultimate Services", 
-  "Clayton, Australia", 
+  "Tata Education Service", 
+  "Melbourne, Australia", 
   "Sep. 2017 - Jul. 2019", 
   "Introductory econometrics, Actuarial statistics, Probability and statistical inference for economics and business, Applied econometrics and Financial econometric",
   
+  ####
   "Teaching Associate", 
   "Monash University", 
   "Clayton, Australia", 
-  "Jul. 2017 - Nov. 2017", 
+  "Aug. 2017 - Dec. 2017", 
   "Introduction to financial accounting (ACC1100)",
   
-  "Private tutor", 
+  "Private tutor",
   "HDEDU",
-  "Clayton, Australia", 
-  "Feb. 2017 - Sep. 2017", 
+  "Clayton, Australia",
+  "Feb. 2017 - Sep. 2017",
   "Introductory econometrics and Actuarial statistics"
 
 
@@ -160,6 +172,8 @@ bibliography_entries("publications.bib") %>%
 \pagebreak
 
 # Awards
+
+* 2020 IEEE Sensor Array and Multichannel Signal Processing Workshop (SAM) Best Student Paper Award Finalist
 
 * 2019 Monash Business School Dean's Honour
 
