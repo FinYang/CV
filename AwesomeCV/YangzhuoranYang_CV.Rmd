@@ -134,7 +134,7 @@ tribble(
   "Tata Education Service", 
   "Melbourne, Australia", 
   "Sep. 2017 - Jul. 2019", 
-  "Introductory econometrics, Actuarial statistics, Probability and statistical inference for economics and business, Applied econometrics and Financial econometric",
+  "Introductory econometrics, Actuarial statistics, Probability and statistical inference for economics and business, Applied econometrics and Financial econometrics",
   
   ####
   "Teaching Associate", 
@@ -164,7 +164,7 @@ tribble(
 ```{r}
 # pubs <- ReadBib("publications.bib", check = FALSE)
 bibliography_entries("publications.bib") %>%
-  arrange(year, surnames) %>% 
+  arrange(issued, author) %>% 
   `rownames<-`(NULL)
 ```
 
@@ -187,7 +187,7 @@ bibliography_entries("publications.bib") %>%
 
 * 2018 Monash Business School Dean's Honour
 
-* 2018 Monash Business School Student Excellence Award in recognition of exceptional academic excellence in:  
+* 2018 Monash Business School Student Excellence Award in recognition of exceptional academic excellence:  
 
   - Business analytics
   - Modelling in finance and insurance
@@ -196,7 +196,7 @@ bibliography_entries("publications.bib") %>%
 * 2018 The International Institute of Forecasters Student Forecasting Award 
     offered by Monash University Applied Forecasting for Business and Economics 
 
-* 2017 Monash Business School Student Excellence Award in recognition of exceptional academic excellence in:  
+* 2017 Monash Business School Student Excellence Award in recognition of exceptional academic excellence:  
 
   - Statistical Thinking
   - Principles of Econometrics
@@ -228,14 +228,11 @@ tribble(
 
 # Software (R packages)
 
-R packages that I've contributed or co-authored.
 
 ```{r r-packages}
 # Sort R packages by title, then year.
-bibliography_entries("Rpackages.bib",
-  startlabel = "packagestart", endlabel = "packageend"
-) %>%
-  arrange(title, year)
+bibliography_entries("Rpackages.bib") %>%
+  arrange(title, issued) 
 ```
 
 
