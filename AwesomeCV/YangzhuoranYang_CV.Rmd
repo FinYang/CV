@@ -71,7 +71,7 @@ tribble(
   # "Sep. 2014 - Jul. 2016",
   # "GPA of 3.940"
 ) %>% 
-
+  
   detailed_entries(degree, dates, uni, loc, details)
 
 ```
@@ -82,7 +82,7 @@ tribble(
 
 tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
-
+  
   "Adjunct Lecturer", 
   "Monash University",
   "Suzhou, China", 
@@ -103,7 +103,7 @@ tribble(
   "Clayton, Australia", 
   "Feb. 2019 - Sep. 2020", 
   "Business and economic statistics (ETC1000)",
-
+  
   "Teaching Associate", 
   "Monash University", 
   "Clayton, Australia", 
@@ -148,13 +148,13 @@ tribble(
   "Clayton, Australia",
   "Feb. 2017 - Sep. 2017",
   "Introductory econometrics and Actuarial statistics"
-
-
-
-
-
+  
+  
+  
+  
+  
 ) %>% 
-
+  
   detailed_entries(role, dates, company, loc, details)
 
 ```
@@ -173,7 +173,7 @@ bibliography_entries("publications.bib") %>%
 
 # Awards
 
-* 2020 IEEE Sensor Array and Multichannel Signal Processing Workshop (SAM) Best Student Paper Award Finalist
+* 2020 IEEE Sensor Array and Multichannel Signal Processing Workshop Best Student Paper Award Finalist
 
 * 2019 Monash Business School Dean's Honour
 
@@ -189,19 +189,19 @@ bibliography_entries("publications.bib") %>%
 
 * 2018 Monash Business School Student Excellence Award in recognition of exceptional academic excellence:  
 
-  - Business analytics
-  - Modelling in finance and insurance
-  - Applied forecasting for business and economics
+- Business analytics
+- Modelling in finance and insurance
+- Applied forecasting for business and economics
 
 * 2018 The International Institute of Forecasters Student Forecasting Award 
-    offered by Monash University Applied Forecasting for Business and Economics 
+offered by Monash University Applied Forecasting for Business and Economics 
 
 * 2017 Monash Business School Student Excellence Award in recognition of exceptional academic excellence:  
 
-  - Statistical Thinking
-  - Principles of Econometrics
-  - Contingencies in insurance and pensions
-  
+- Statistical Thinking
+- Principles of Econometrics
+- Contingencies in insurance and pensions
+
 * 2016 Henan University Undergraduate Scholarship 
 
 * 2016 Henan University Outstanding Student Award
@@ -213,13 +213,13 @@ tribble(
   "Monash University Econometrics Honours Memorial Scholarship", "Monash", "2019", NA,
   "Monash Business School Prize for the Top Achieving Student in Actuarial Science (Undergraduate)", "Monash", "2018", NA,
   "Monash University Medal for Undergraduate Academic Excellence", "Monash", "2018", NA,
-    "Monash Business School Student Excellence Award in recognition of exceptional academic excellence in:", "Monash", "2018", "Business analytics", 
-      "Monash Business School Student Excellence Award in recognition of exceptional academic excellence in:", "Monash", "2018", "Modelling in finance and insurance", 
-      "Monash Business School Student Excellence Award in recognition of exceptional academic excellence in:", "Monash", "2018", "Applied forecasting for business and economics", 
+  "Monash Business School Student Excellence Award in recognition of exceptional academic excellence in:", "Monash", "2018", "Business analytics", 
+  "Monash Business School Student Excellence Award in recognition of exceptional academic excellence in:", "Monash", "2018", "Modelling in finance and insurance", 
+  "Monash Business School Student Excellence Award in recognition of exceptional academic excellence in:", "Monash", "2018", "Applied forecasting for business and economics", 
   "The International Institute of Forecasters Student Forecasting Award o", "IIF", "2018", NA,
-    "Monash Business School Student Excellence Award in recognition of exceptional academic excellence in:", "Monash", "2017", "Statistical Thinking", 
-      "Monash Business School Student Excellence Award in recognition of exceptional academic excellence in:", "Monash", "2017", "Principles of Econometrics", 
-      "Monash Business School Student Excellence Award in recognition of exceptional academic excellence in:", "Monash", "2017", "Contingencies in insurance and pensions"
+  "Monash Business School Student Excellence Award in recognition of exceptional academic excellence in:", "Monash", "2017", "Statistical Thinking", 
+  "Monash Business School Student Excellence Award in recognition of exceptional academic excellence in:", "Monash", "2017", "Principles of Econometrics", 
+  "Monash Business School Student Excellence Award in recognition of exceptional academic excellence in:", "Monash", "2017", "Contingencies in insurance and pensions"
 ) %>%
   brief_entries(gsub("NA", "", paste0(award, details)), year, from)
 
@@ -231,8 +231,13 @@ tribble(
 
 ```{r r-packages}
 # Sort R packages by title, then year.
-bibliography_entries("Rpackages.bib") %>%
+options("encoding" = "UTF-8")
+pkgbib <- bibliography_entries("Rpackages.bib") %>%
   arrange(title, issued) 
+# solve ' display issue on windows 
+pkgbib$author <- pkgbib$author %>% lapply(function(lname) lapply(lname, function(lname2) lapply(lname2, function(x){gsub("â€™","'", x)} ))) %>% 
+  `class<-`(class(pkgbib$author))
+pkgbib
 ```
 
 
@@ -244,26 +249,26 @@ bibliography_entries("Rpackages.bib") %>%
 
 ```{r}
 tribble(
-  ~ name, ~ uni, ~ loc, ~ dates, ~ details,
-  "Professor Rob J Hyndman", 
-  "Monash University", "Professor", 
-  "Clayton, Australia", 
-  "Email: Rob.Hyndman@monash.edu",
-  
-  "Dr Dan Zhu", 
-  "Monash University", "Senior Lecturer", 
-  "Clayton, Australia", 
-  "Email: Dan.Zhu@monash.edu",
-  
-  "Assoc Professor Bonsoo Koo", 
-  "Monash University", "Associate Professor", 
-  "Clayton, Australia", 
-  "Email: Bonsoo.Koo@monash.edu",
-  
+~ name, ~ uni, ~ loc, ~ dates, ~ details,
+"Professor Rob J Hyndman", 
+"Monash University", "Professor", 
+"Clayton, Australia", 
+"Email: Rob.Hyndman@monash.edu",
+
+"Dr Dan Zhu", 
+"Monash University", "Senior Lecturer", 
+"Clayton, Australia", 
+"Email: Dan.Zhu@monash.edu",
+
+"Assoc Professor Bonsoo Koo", 
+"Monash University", "Associate Professor", 
+"Clayton, Australia", 
+"Email: Bonsoo.Koo@monash.edu",
+
 
 ) %>% 
 
-  detailed_entries(loc, dates, name, uni, details)
+detailed_entries(loc, dates, name, uni, details)
 ```
 
 -->

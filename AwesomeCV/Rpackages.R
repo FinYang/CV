@@ -8,7 +8,7 @@
 
 write_packages_bib <- function(pkglist, file)
 {
-  fh <- file(file, open = "w+")
+  fh <- file(file, open = "w+", , encoding = "native.enc")
   on.exit( if( isOpen(fh) ) close(fh) )
   for(i in seq_along(pkglist))
   {
@@ -17,7 +17,7 @@ write_packages_bib <- function(pkglist, file)
       stop(paste("Package not found:",pkglist[i]))
     else {
       cat("\n Writing",pkglist[i])
-      writeLines(toBibtex(bibs), fh)
+      writeLines(toBibtex(bibs), fh, useBytes = TRUE)
     }
   }
   message(paste("OK\nResults written to",file))
