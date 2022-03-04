@@ -51,7 +51,7 @@ tribble(
   "Bachelor of Commerce (Hons) in Econometrics", 
   "Monash University", "Clayton, Australia", 
   "Mar. 2019 - Dec. 2019", 
-  "Thesis: Optimal portfolio selection via dimensional reduction in a stochastic optimal control setting",
+  "Optimal portfolio selection via dimensional reduction in a stochastic optimal control setting",
   
   "Bachelor of Commerce (Hons) in Econometrics", 
   "Monash University", 
@@ -83,10 +83,16 @@ tribble(
 tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
   
+  "Applied Economist", 
+  "Huohua Siwei", 
+  "Beijing, China", 
+  "Apr. 2021 - Jan. 2022",
+  "Responsibilities including experiment design and evaluation, data mining and R programming",
+  
   "Adjunct Lecturer", 
   "Monash University",
   "Suzhou, China", 
-  "Oct. 2020 - Present", 
+  "Oct. 2020 - Jun. 2021", 
   "Suzhou Industrial Park Monash Research Institute of Science and Techology",
   
   
@@ -127,7 +133,7 @@ tribble(
   "Monash University", 
   "Clayton, Australia", 
   "Sep. 2017 - Aug. 2020", 
-  "Supervisors include Dr Bonsoo Koo, Dr Dan Zhu, and Professor Rob Hyndman",
+  "Supervisors include Assoc Professor Bonsoo Koo, Dr Dan Zhu, and Professor Rob Hyndman",
   
   ####
   "Private tutor", 
