@@ -4,13 +4,15 @@ position: "PhD Student"
 address: "Monash University, Australia"
 phone: +61 414 060 712
 www: yangzhuoranyang.com
-email: "Fin.Yang@monash.edu"
+email: "Yangzhuoran.Yang@monash.edu"
 twitter: YangzhuoranY
 github: FinYang
 linkedin: yangzhuoranyang
 headcolor: 414141
 date: "`r format(Sys.time(), '%B %Y')`"
-output: vitae::awesomecv
+output: 
+  vitae::awesomecv:
+    keep_tex: true
 ---
 
 ```{r setup, include=FALSE}
@@ -41,12 +43,13 @@ write_packages_bib(
 # Education
 
 ```{r}
+#| eval: true
 tribble(
   ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
   "Doctor of Philosophy in Statistics", 
   "Monash University", "Clayton, Australia", 
   "Apr. 2020 - Present", 
-  "Forecast reconciliation with linear combinations",
+  "Component-based Approach in Multivariate and Hierarchical Forecasting",
   
   "Bachelor of Commerce (Hons) in Econometrics", 
   "Monash University", "Clayton, Australia", 
@@ -57,37 +60,38 @@ tribble(
   "Monash University", 
   "Clayton, Australia", 
   "Mar. 2019 - Dec. 2019", 
-  "GPA of 3.875, GRADE H1",
+  "GPA: 3.875; GRADE H1",
   
   "Bachelor of Actuarial Science", 
   "Monash University", 
   "Clayton, Australia", 
   "Jul. 2016 - Oct. 2018", 
-  "GPA of 4, WAM of 90.323", 
-  
-  # "First two years of Bachelor in Finance",
-  # "Henan University",
-  # "Kaifeng, China",
-  # "Sep. 2014 - Jul. 2016",
-  # "GPA of 3.940"
+  "GPA: 4; WAM: 90.323", 
 ) %>% 
   
-  detailed_entries(degree, dates, uni, loc, details)
+  detailed_entries( uni, dates,degree, loc, details)
 
 ```
 
 # Experience
 
 ```{r}
+#| eval: true
 
 tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
+  
+  "Teaching Associate", 
+  "Monash University", 
+  "Clayton, Australia", 
+  "2017, 2019 - 2020, 2022 - Present",
+  "Actuarial Science, Econometrics and Business Analytics",
   
   "Applied Economist", 
   "Huohua Siwei", 
   "Beijing, China", 
   "Apr. 2021 - Jan. 2022",
-  "Responsibilities including experiment design and evaluation, data mining and R programming",
+  "Experimental design and evaluation, data mining and R web app development",
   
   "Adjunct Lecturer", 
   "Monash University",
@@ -100,78 +104,129 @@ tribble(
   "ShanghaiTech University SIST",
   "Shanghai, China",
   "Dec. 2019 - Aug. 2020",
-  "Supervisor: Professor Ziping Zhao",
-  
-  
-  ####
-  "Teaching Associate", 
-  "Monash University", 
-  "Clayton, Australia", 
-  "Feb. 2019 - Sep. 2020", 
-  "Business and economic statistics (ETC1000)",
-  
-  "Teaching Associate", 
-  "Monash University", 
-  "Clayton, Australia", 
-  "Feb. 2019 - Sep. 2020", 
-  "Applied econometrics (ETC3410)",
+  "Supervisor: Assistant Professor Ziping Zhao",
   
   ####
   "Research Assistant", 
   "Monash University", 
   "Clayton, Australia", 
   "Sep. 2017 - Aug. 2020", 
-  "Responsibilities including developments of R packages and data manipulation",
+  "Developments of R packages and data wrangling",
   
   "Research Assistant", 
   "Monash University", 
   "Clayton, Australia", 
   "Sep. 2017 - Aug. 2020", 
-  "Concepts involving time series, financial data, dimension reduction and stochastic optimization",
-  
-  "Research Assistant", 
-  "Monash University", 
-  "Clayton, Australia", 
-  "Sep. 2017 - Aug. 2020", 
-  "Supervisors include Assoc Professor Bonsoo Koo, Dr Dan Zhu, and Professor Rob Hyndman",
-  
-  ####
-  "Private tutor", 
-  "Tata Education Service", 
-  "Melbourne, Australia", 
-  "Sep. 2017 - Jul. 2019", 
-  "Introductory econometrics, Actuarial statistics, Probability and statistical inference for economics and business, Applied econometrics and Financial econometrics",
-  
-  ####
-  "Teaching Associate", 
-  "Monash University", 
-  "Clayton, Australia", 
-  "Aug. 2017 - Dec. 2017", 
-  "Introduction to financial accounting (ACC1100)",
-  
-  "Private tutor",
-  "HDEDU",
-  "Clayton, Australia",
-  "Feb. 2017 - Sep. 2017",
-  "Introductory econometrics and Actuarial statistics"
-  
-  
-  
+  "Supervisors: Assoc Professor Bonsoo Koo, Assoc Professor Dan Zhu, and Professor Rob Hyndman",
   
   
 ) %>% 
-  
-  detailed_entries(role, dates, company, loc, details)
+  detailed_entries( company,  dates, role,loc, details)
 
 ```
 
-# Publications
+# Teaching
+
+
+``` {r}  
+
+tribble(
+  ~ unit, ~ time, ~ letter,
+"ETC3550 - Applied Forecasting", 
+"Sem 1 2022,  Sem 1 2023",
+"Highest student satisfaction band; One of the top performing units in the Student Evaluation",
+
+"ETC3400 - Principles of Econometrics", 
+"Sem 2 2023",
+"Highest student satisfaction band",
+
+"ETC3580 - Advanced Statistical Modelling", 
+"Sem 2 2022, Sem 1 2023",
+"Highest student satisfaction band",
+
+"ETF5900 - Business Statistics", 
+"NOV12 2020, Sem 1 2021",
+"Highest student satisfaction band; One of the top performing units in the Student Evaluation",
+
+"ETC1000 - Business and Economic Statistics", 
+"Sem 1 2019, Sem 2 2019",
+""
+) %>% 
+  detailed_entries(with = unit, where = time, what = letter)
+```
+\pagebreak
+# Job Market Paper
+
+"Free Lunch Multivariate Forecasting: reducing forecast variance using linear combinations" by Yangzhuoran Fin Yang, Rob J. Hyndman, George Athanasopoulos and Anastasios Panagiotelis
+
+_Abstract_: 
+
+\begin{cvparagraph}
+\end{cvparagraph}
+
+# Publication
 
 ```{r}
+#| eval: FALSE
 # pubs <- ReadBib("publications.bib", check = FALSE)
 bibliography_entries("publications.bib") %>%
   arrange(issued, author) %>% 
   `rownames<-`(NULL)
+```
+
+Yang, Y. F., and Zhao, Z. (2020), “Online Robust Reduced-Rank Regression,” in 2020 IEEE 11th Sensor Array and Multichannel Signal Processing Workshop (SAM), pp. 1–5.
+
+# Working papers
+
+1. "Nonlinear Dynamics of Kimchi Premium" by Bonsoo Koo, Myung Hwan Seo and Yangzhuoran Fin Yang (Administrative revision)
+1. "Forecast Multivariate Time Series using Lower Dimensional Components" by Yangzhuoran Fin Yang, Rob J. Hyndman, George Athanasopoulos and Anastasios Panagiotelis
+1. "ycevo: An R Package for Yield Curve Nonparametric Estimation" jointly with Nico Purnomo, Wenying Yao and Bonsoo Koo
+1. "Free Lunch Forecast Projection in Hierarchical Forecast Reconciliation"
+1. "Forecasting Multiple Time Series with One-Sided Dynamic Autoregressive Principal Components: A hybrid of Dynamic Factor Model and Vector Autoregression"
+
+
+# Talks
+
+```{r}
+tribble(
+  ~ when, ~ title, ~ where, ~ url,
+  "June 2023", "43rd International Symposium on Forecasting", 
+  "Charlottesville, USA", "https://github.com/FinYang/talk.ComponentsForecast",
+  "Dec 2020", "Doctoral Research Colloquium, Monash Business School", 
+  "Virtual", "https://yangzhuoranyang.com/talk/colloquium2020/",
+  "June 2020", "11th IEEE Sensor Array and Multichannel Signal Processing Workshop", 
+  "Virtual", "https://yangzhuoranyang.com/talk/orrrr/",
+) %>% 
+  brief_entries(glue::glue("\\textbf{<title>} \\newline \\url{<url>}", .open = "<", .close = ">"), when, where, .protect = FALSE)
+```
+
+
+# Referees
+
+```{r}
+tribble(
+~ name, ~ uni, ~ dep, ~ loc, ~ email,
+"Professor Rob J Hyndman", 
+"Monash University", 
+"Department of Econometrics & Business Statistics", 
+"Clayton, Australia", 
+"Email: Rob.Hyndman@monash.edu",
+
+"Professor George Athanasopoulos", 
+"Monash University", 
+"Department of Econometrics & Business Statistics", 
+"Clayton, Australia", 
+"Email: George.Athanasopoulos@monash.edu",
+
+"Associate Professor Anastasios Panagiotelis", 
+"University of Sydney Business School", 
+"Discipline of Business Analytics", 
+"Darlington, Australia", 
+"Email: anastasios.panagiotelis@sydney.edu.au",
+
+) %>% 
+
+detailed_entries(dep, loc, name, uni, email)
 ```
 
 
@@ -208,73 +263,21 @@ offered by Monash University Applied Forecasting for Business and Economics
   - Principles of Econometrics
   - Contingencies in insurance and pensions
 
-* 2016 Henan University Undergraduate Scholarship 
 
-* 2016 Henan University Outstanding Student Award
+# Softwares
 
-```{r, eval = F}
-
-tribble(
-  ~ award, ~ from, ~ year, ~details,
-  "Monash University Econometrics Honours Memorial Scholarship", "Monash", "2019", NA,
-  "Monash Business School Prize for the Top Achieving Student in Actuarial Science (Undergraduate)", "Monash", "2018", NA,
-  "Monash University Medal for Undergraduate Academic Excellence", "Monash", "2018", NA,
-  "Monash Business School Student Excellence Award in recognition of exceptional academic excellence in:", "Monash", "2018", "Business analytics", 
-  "Monash Business School Student Excellence Award in recognition of exceptional academic excellence in:", "Monash", "2018", "Modelling in finance and insurance", 
-  "Monash Business School Student Excellence Award in recognition of exceptional academic excellence in:", "Monash", "2018", "Applied forecasting for business and economics", 
-  "The International Institute of Forecasters Student Forecasting Award o", "IIF", "2018", NA,
-  "Monash Business School Student Excellence Award in recognition of exceptional academic excellence in:", "Monash", "2017", "Statistical Thinking", 
-  "Monash Business School Student Excellence Award in recognition of exceptional academic excellence in:", "Monash", "2017", "Principles of Econometrics", 
-  "Monash Business School Student Excellence Award in recognition of exceptional academic excellence in:", "Monash", "2017", "Contingencies in insurance and pensions"
-) %>%
-  brief_entries(gsub("NA", "", paste0(award, details)), year, from)
-
-```
-
-
-# Software (R packages)
 
 
 ```{r r-packages}
+#| eval: true
 # Sort R packages by title, then year.
 options("encoding" = "UTF-8")
 pkgbib <- bibliography_entries("Rpackages.bib") %>%
   arrange(title, issued) 
 # solve ' display issue on windows 
-pkgbib$author <- pkgbib$author %>% lapply(function(lname) lapply(lname, function(lname2) lapply(lname2, function(x){gsub("â€™","'", x)} ))) %>% 
+pkgbib$author <- pkgbib$author %>% lapply(function(lname) lapply(lname, function(lname2) lapply(lname2, function(x){gsub("â€™","'", x)} ))) %>%
   `class<-`(class(pkgbib$author))
 pkgbib
 ```
 
 
-<!-- 
-
-\pagebreak 
-
-# Referees
-
-```{r}
-tribble(
-~ name, ~ uni, ~ loc, ~ dates, ~ details,
-"Professor Rob J Hyndman", 
-"Monash University", "Professor", 
-"Clayton, Australia", 
-"Email: Rob.Hyndman@monash.edu",
-
-"Dr Dan Zhu", 
-"Monash University", "Senior Lecturer", 
-"Clayton, Australia", 
-"Email: Dan.Zhu@monash.edu",
-
-"Assoc Professor Bonsoo Koo", 
-"Monash University", "Associate Professor", 
-"Clayton, Australia", 
-"Email: Bonsoo.Koo@monash.edu",
-
-
-) %>% 
-
-detailed_entries(loc, dates, name, uni, details)
-```
-
--->

@@ -8,7 +8,7 @@
 
 write_packages_bib <- function(pkglist, file)
 {
-  fh <- file(file, open = "w+", , encoding = "native.enc")
+  fh <- file(file, open = "w+", encoding = "native.enc")
   on.exit( if( isOpen(fh) ) close(fh) )
   for(i in seq_along(pkglist))
   {
