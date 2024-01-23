@@ -4,7 +4,7 @@ position: "PhD Student in Statistics"
 address: "Monash University, Australia"
 phone: +61 414 060 712
 www: yangzhuoranyang.com
-email: "Yangzhuoran.Yang@monash.edu"
+email: "Fin.Yang@monash.edu"
 twitter: YangzhuoranY
 github: FinYang
 linkedin: yangzhuoranyang
@@ -54,7 +54,7 @@ tribble(
   "Doctor of Philosophy in Statistics", 
   "Monash University", "Clayton, Australia", 
   "Apr. 2020 - Present", 
-  "Thesis: Component-based Approach in Multivariate and Hierarchical Forecasting",
+  "Thesis: Component-based Approaches in Multivariate and Hierarchical Forecasting",
   
   "Doctor of Philosophy in Statistics", 
   "Monash University", "Clayton, Australia", 
@@ -66,7 +66,7 @@ tribble(
   "Bachelor of Commerce (Hons) in Econometrics", 
   "Monash University", "Clayton, Australia", 
   "Mar. 2019 - Dec. 2019", 
-  "Thesis: Optimal portfolio selection via dimensional reduction in a stochastic optimal control setting",
+  "Thesis: Optimal Portfolio Selection via Dimensional Reduction in a Stochastic Optimal Control Setting",
   
   "Bachelor of Commerce (Hons) in Econometrics", 
   "Monash University", 
@@ -129,7 +129,7 @@ tribble(
   "Monash University", 
   "Clayton, Australia", 
   "Sep. 2017 - Aug. 2020", 
-  "Supervisors: Assoc Professor Bonsoo Koo, Assoc Professor Dan Zhu, and Professor Rob Hyndman",
+  "Supervisors: Associate Professor Bonsoo Koo, Associate Professor Dan Zhu, and Professor Rob Hyndman",
   
   
 ) %>% 
@@ -141,52 +141,26 @@ tribble(
 
 
 ``` {r}  
-#| eval: false
-tribble(
-  ~ unit, ~ time, ~ letter,
-"Applied Forecasting [Graduate and undergraduate level]", 
-"Sem 1 2022,  Sem 1 2023",
-"Highest student satisfaction band; One of the top performing units in the Student Evaluation",
-
-"Principles of Econometrics [Graduate and undergraduate level]", 
-"Sem 2 2023",
-"Highest student satisfaction band",
-
-"Advanced Statistical Modelling [Graduate and undergraduate level]", 
-"Sem 2 2022, Sem 1 2023",
-"Highest student satisfaction band",
-
-"Business Statistics [Graduate and undergraduate level]", 
-"NOV12 2020, Sem 1 2021",
-"Highest student satisfaction band; One of the top performing units in the Student Evaluation",
-
-"Business and Economic Statistics [Undergraduate level]", 
-"Sem 1 2019, Sem 2 2019",
-""
-) %>% 
-  detailed_entries(with = unit, where = time, what = letter)
-```
-``` {r}  
 #| eval: true
 tribble(
   ~ unit, ~level, ~ time, ~ letter,
-"Applied Forecasting", "Graduate and undergraduate level", 
+"Applied Forecasting", "Undergraduate and postgraduate", 
 "Sem 1 2022,  Sem 1 2023",
 "Highest student satisfaction band; One of the top performing units in the Student Evaluation",
 
-"Principles of Econometrics", "Graduate and undergraduate level", 
+"Principles of Econometrics", "Undergraduate and postgraduate", 
 "Sem 2 2023",
 "Highest student satisfaction band",
 
-"Advanced Statistical Modelling", "Graduate and undergraduate level", 
+"Advanced Statistical Modelling", "Undergraduate and postgraduate", 
 "Sem 2 2022, Sem 1 2023",
 "Highest student satisfaction band",
 
-"Business Statistics", "Graduate and undergraduate level", 
+"Business Statistics", "Undergraduate and postgraduate", 
 "NOV12 2020, Sem 1 2021",
 "Highest student satisfaction band; One of the top performing units in the Student Evaluation",
 
-"Business and Economic Statistics", "Undergraduate level", 
+"Business and Economic Statistics", "Undergraduate", 
 "Sem 1 2019, Sem 2 2019",
 ""
 ) %>% 
@@ -312,7 +286,7 @@ tribble(
 "University of Sydney Business School", 
 "Discipline of Business Analytics", 
 "Darlington, Australia", 
-"Email: anastasios.panagiotelis@sydney.edu.au",
+"Email: Anastasios.Panagiotelis@sydney.edu.au",
 
 ) %>% 
 
