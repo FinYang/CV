@@ -97,10 +97,10 @@ tribble(
   "Monash University", 
   "Clayton, Australia", 
   "2017, 2019 - 2020, 2022 - Present",
-  "Actuarial Science, Econometrics and Business Analytics",
+  "Econometrics and Business Analytics",
   
   "Applied Economist", 
-  "Huohua Siwei", 
+  "Huohua Siwei (Online Education) ", 
   "Beijing, China", 
   "Apr. 2021 - Jan. 2022",
   "Experimental design and evaluation, data mining and R web app development",
