@@ -66,7 +66,7 @@ tribble(
   "Bachelor of Commerce (Hons) in Econometrics", 
   "Monash University", "Clayton, Australia", 
   "Mar. 2019 - Dec. 2019", 
-  "Optimal portfolio selection via dimensional reduction in a stochastic optimal control setting",
+  "Thesis: Optimal portfolio selection via dimensional reduction in a stochastic optimal control setting",
   
   "Bachelor of Commerce (Hons) in Econometrics", 
   "Monash University", 
