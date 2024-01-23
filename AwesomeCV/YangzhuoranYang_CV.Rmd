@@ -171,9 +171,9 @@ tribble(
 
 "Free Lunch Multivariate Forecasting: reducing forecast variance using linear combinations" by Yangzhuoran Fin Yang, Rob J. Hyndman, George Athanasopoulos and Anastasios Panagiotelis
 
-_Abstract_: 
-
 \begin{cvparagraph}
+\textit{Abstract}: 
+We introduce a novel free-lunch forecast projection method designed to reduce forecast variance of arbitrary multivariate forecasts without introducing bias. The free-lunch method adjusts the forecasts of multivariate time series to be consistent with the forecasts of linear combinations (components) of the series by projecting all forecasts onto the space where the linear constraints are satisfied. The forecast variance can be reduced monotonically by including more components. For a given number of components, the proposed method achieves maximum forecast variance reduction among linear projections. The theoretical findings are validated in simulation and two applications on the Australian domestic tourism data set and the FRED-MD data set. Notably, used to construct components, Principal Component Analysis (PCA) demonstrates effective variance reduction. We observe the source of the reduction is the reduction of model misspecification error.
 \end{cvparagraph}
 
 # Publication
@@ -210,7 +210,7 @@ tribble(
   "Jun. 2020", "11th IEEE Sensor Array and Multichannel Signal Processing Workshop", 
   "Virtual", "https://yangzhuoranyang.com/talk/orrrr/",
 ) %>% 
-  brief_entries(glue::glue("\\textbf{<title>} \\newline \\url{<url>}", .open = "<", .close = ">"), when, where, .protect = FALSE)
+  brief_entries(glue::glue("\\textbf{<title>}", .open = "<", .close = ">"), when, where, .protect = FALSE)
 ```
 
 ## Review activities
@@ -228,12 +228,13 @@ tribble(
   brief_entries(journal, with= time, .protect = FALSE)
 ```
 
-\pagebreak
 
-# Awards
+# Awards, Grants and Scholarships
 
-* 2020 Monash Business School Co-funded Graduate Research Scholarship
-* 2020 Monash Graduate Scholarship
+* 2023 International Symposium on Forecasting Travel Grant
+* 2023 Monash Graduate Research Travel Grant
+* 2020 - 2024 Monash Business School Co-funded Graduate Research Scholarship
+* 2020 - 2024 Monash Graduate Scholarship
 * 2020 IEEE Sensor Array and Multichannel Signal Processing Workshop Best Student Paper Award Finalist
 * 2019 Monash Business School Dean's Honour
 * 2019 Monash University Econometrics Honours Memorial Scholarship
@@ -244,6 +245,8 @@ tribble(
 * 2018 The International Institute of Forecasters Student Forecasting Award 
 offered by Monash University Applied Forecasting for Business and Economics 
 * 2017 Monash Business School Student Excellence Award in recognition of exceptional academic excellence (Statistical Thinking, Principles of Econometrics, Contingencies in insurance and pensions)
+
+\pagebreak
 
 # Softwares
 
