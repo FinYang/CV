@@ -216,6 +216,37 @@ tribble(
   brief_entries(journal, with= time, .protect = FALSE)
 ```
 
+\pagebreak
+
+# Awards
+
+* 2020 Monash Business School Co-funded Graduate Research Scholarship
+* 2020 Monash Graduate Scholarship
+* 2020 IEEE Sensor Array and Multichannel Signal Processing Workshop Best Student Paper Award Finalist
+* 2019 Monash Business School Dean's Honour
+* 2019 Monash University Econometrics Honours Memorial Scholarship
+* 2018 Monash Business School Prize for the Top Achieving Student in Actuarial Science (Undergraduate) 
+* 2018 Monash University Medal for Undergraduate Academic Excellence
+* 2018 Monash Business School Dean's Honour
+* 2018 Monash Business School Student Excellence Award in recognition of exceptional academic excellence (Business analytics, Modelling in finance and insurance, Applied forecasting for business and economics)
+* 2018 The International Institute of Forecasters Student Forecasting Award 
+offered by Monash University Applied Forecasting for Business and Economics 
+* 2017 Monash Business School Student Excellence Award in recognition of exceptional academic excellence (Statistical Thinking, Principles of Econometrics, Contingencies in insurance and pensions)
+
+# Softwares
+
+```{r r-packages}
+#| eval: true
+# Sort R packages by title, then year.
+options("encoding" = "UTF-8")
+pkgbib <- bibliography_entries("Rpackages.bib") %>%
+  arrange(title, issued) 
+# solve ' display issue on windows 
+pkgbib$author <- pkgbib$author %>% lapply(function(lname) lapply(lname, function(lname2) lapply(lname2, function(x){gsub("â€™","'", x)} ))) %>%
+  `class<-`(class(pkgbib$author))
+pkgbib
+```
+
 # Referees
 
 ```{r}
@@ -243,56 +274,4 @@ tribble(
 
 detailed_entries(dep, loc, name, uni, email)
 ```
-
-
-\pagebreak
-
-# Awards
-
-* 2020 IEEE Sensor Array and Multichannel Signal Processing Workshop Best Student Paper Award Finalist
-
-* 2019 Monash Business School Dean's Honour
-
-<!-- * 2019 Monash Business School Co-funded Graduate Research Scholarship -->
-
-* 2019 Monash University Econometrics Honours Memorial Scholarship
-
-* 2018 Monash Business School Prize for the Top Achieving Student in Actuarial Science (Undergraduate) 
-
-* 2018 Monash University Medal for Undergraduate Academic Excellence
-
-* 2018 Monash Business School Dean's Honour
-
-* 2018 Monash Business School Student Excellence Award in recognition of exceptional academic excellence:  
-
-  - Business analytics
-  - Modelling in finance and insurance
-  - Applied forecasting for business and economics
-
-* 2018 The International Institute of Forecasters Student Forecasting Award 
-offered by Monash University Applied Forecasting for Business and Economics 
-
-* 2017 Monash Business School Student Excellence Award in recognition of exceptional academic excellence:  
-
-  - Statistical Thinking
-  - Principles of Econometrics
-  - Contingencies in insurance and pensions
-
-
-# Softwares
-
-
-
-```{r r-packages}
-#| eval: true
-# Sort R packages by title, then year.
-options("encoding" = "UTF-8")
-pkgbib <- bibliography_entries("Rpackages.bib") %>%
-  arrange(title, issued) 
-# solve ' display issue on windows 
-pkgbib$author <- pkgbib$author %>% lapply(function(lname) lapply(lname, function(lname2) lapply(lname2, function(x){gsub("â€™","'", x)} ))) %>%
-  `class<-`(class(pkgbib$author))
-pkgbib
-```
-
 
