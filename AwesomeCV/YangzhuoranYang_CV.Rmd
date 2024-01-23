@@ -189,7 +189,7 @@ bibliography_entries("publications.bib") %>%
 
 Yang, Y. F., and Zhao, Z. (2020), “Online Robust Reduced-Rank Regression,” in 2020 IEEE 11th Sensor Array and Multichannel Signal Processing Workshop (SAM), pp. 1–5.
 
-# Working papers
+# Working Papers
 
 1. "Nonlinear Dynamics of Kimchi Premium" by Bonsoo Koo, Myung Hwan Seo and Yangzhuoran Fin Yang (Under administrative revision)
 1. "Forecast Multivariate Time Series using Lower Dimensional Components" by Yangzhuoran Fin Yang, Rob J. Hyndman, George Athanasopoulos and Anastasios Panagiotelis
@@ -197,7 +197,7 @@ Yang, Y. F., and Zhao, Z. (2020), “Online Robust Reduced-Rank Regression,” i
 1. "Free Lunch Forecast Projection in Hierarchical Forecast Reconciliation"
 1. "Forecasting Multiple Time Series with One-Sided Dynamic Autoregressive Principal Components: A hybrid of Dynamic Factor Model and Vector Autoregression"
 
-# Professional activities
+# Professional Activities
 
 ## Conferences
 
