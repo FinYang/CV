@@ -190,7 +190,7 @@ Yang, Y. F., and Zhao, Z. (2020), “Online Robust Reduced-Rank Regression,” i
 
 # Working papers
 
-1. "Nonlinear Dynamics of Kimchi Premium" by Bonsoo Koo, Myung Hwan Seo and Yangzhuoran Fin Yang (Administrative revision)
+1. "Nonlinear Dynamics of Kimchi Premium" by Bonsoo Koo, Myung Hwan Seo and Yangzhuoran Fin Yang (Under administrative revision)
 1. "Forecast Multivariate Time Series using Lower Dimensional Components" by Yangzhuoran Fin Yang, Rob J. Hyndman, George Athanasopoulos and Anastasios Panagiotelis
 1. "ycevo: An R Package for Yield Curve Nonparametric Estimation" jointly with Nico Purnomo, Wenying Yao and Bonsoo Koo
 1. "Free Lunch Forecast Projection in Hierarchical Forecast Reconciliation"
