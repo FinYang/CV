@@ -169,11 +169,12 @@ tribble(
 \pagebreak
 # Job Market Paper
 
-"Free Lunch Multivariate Forecasting: reducing forecast variance using linear combinations" by Yangzhuoran Fin Yang, Rob J. Hyndman, George Athanasopoulos and Anastasios Panagiotelis
+"Free Lunch Multivariate Forecast Projection: reducing forecast variance using linear combinations" by Yangzhuoran Fin Yang, Rob J. Hyndman, George Athanasopoulos and Anastasios Panagiotelis
 
 \begin{cvparagraph}
 \textit{Abstract}: 
-We introduce a novel free-lunch forecast projection method designed to reduce forecast variance of arbitrary multivariate forecasts without introducing bias. The free-lunch method adjusts the forecasts of multivariate time series to be consistent with the forecasts of linear combinations (components) of the series by projecting all forecasts onto the space where the linear constraints are satisfied. The forecast variance can be reduced monotonically by including more components. For a given number of components, the proposed method achieves maximum forecast variance reduction among linear projections. The theoretical findings are validated in simulation and two applications on the Australian domestic tourism data set and the FRED-MD data set. Notably, used to construct components, Principal Component Analysis (PCA) demonstrates effective variance reduction. We observe the source of the reduction is the reduction of model misspecification error.
+We introduce a novel forecast projection method designed to reduce forecast variance of arbitrary multivariate forecasts without introducing bias. This method offers a "free lunch" by requiring no additional data or information. The free-lunch method adjusts the forecasts of multivariate time series to be consistent with the forecasts of linear combinations (components) of the series by projecting all forecasts onto the space where the linear constraints are satisfied. The forecast variance can be reduced monotonically by including more components. For a given number of components, the proposed method achieves maximum forecast variance reduction among linear projections. Substantial variance reduction is observed in simulation and two applications on the Australian domestic tourism data set and the FRED-MD data set, validating theoretical findings. Notably, forecast projection with Principal Component Analysis (PCA) as the component construction method demonstrates effective variance reduction. We observe the source of the reduction is the reduction of model misspecification error.
+
 \end{cvparagraph}
 
 # Publication
