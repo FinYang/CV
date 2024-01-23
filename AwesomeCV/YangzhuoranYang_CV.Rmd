@@ -144,23 +144,23 @@ tribble(
 
 tribble(
   ~ unit, ~ time, ~ letter,
-"ETC3550 - Applied Forecasting", 
+"Applied Forecasting [Graduate and undergraduate level]", 
 "Sem 1 2022,  Sem 1 2023",
 "Highest student satisfaction band; One of the top performing units in the Student Evaluation",
 
-"ETC3400 - Principles of Econometrics", 
+"Principles of Econometrics [Graduate and undergraduate level]", 
 "Sem 2 2023",
 "Highest student satisfaction band",
 
-"ETC3580 - Advanced Statistical Modelling", 
+"Advanced Statistical Modelling [Graduate and undergraduate level]", 
 "Sem 2 2022, Sem 1 2023",
 "Highest student satisfaction band",
 
-"ETF5900 - Business Statistics", 
+"Business Statistics [Graduate and undergraduate level]", 
 "NOV12 2020, Sem 1 2021",
 "Highest student satisfaction band; One of the top performing units in the Student Evaluation",
 
-"ETC1000 - Business and Economic Statistics", 
+"Business and Economic Statistics [Undergraduate level]", 
 "Sem 1 2019, Sem 2 2019",
 ""
 ) %>% 
