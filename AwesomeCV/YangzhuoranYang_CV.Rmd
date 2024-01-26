@@ -199,9 +199,9 @@ Yang, Y. F., and Zhao, Z. (2020), “Online Robust Reduced-Rank Regression,” i
 1. "Free Lunch Forecast Projection in Hierarchical Forecast Reconciliation"
 1. "Forecasting Multiple Time Series with One-Sided Dynamic Autoregressive Principal Components: A hybrid of Dynamic Factor Model and Vector Autoregression"
 
-# Professional Activities
+<!-- # Professional Activities -->
 
-## Conferences
+# Conferences
 
 ```{r}
 tribble(
@@ -216,20 +216,20 @@ tribble(
   brief_entries(glue::glue("\\textbf{<title>}", .open = "<", .close = ">"), when, where, .protect = FALSE)
 ```
 
-## Review activities
+<!-- ## Review activities -->
 
-``` {r}  
+<!-- ``` {r}   -->
 
-tribble(
-  ~ journal, ~ time, 
-  "European Journal of Operational Research", 
-  "Since 2023",
-  
-  "Economic Modelling", 
-  "Since 2021"
-) %>% 
-  brief_entries(journal, with= time, .protect = FALSE)
-```
+<!-- tribble( -->
+<!--   ~ journal, ~ time,  -->
+<!--   "European Journal of Operational Research",  -->
+<!--   "Since 2023", -->
+
+<!--   "Economic Modelling",  -->
+<!--   "Since 2021" -->
+<!-- ) %>%  -->
+<!--   brief_entries(journal, with= time, .protect = FALSE) -->
+<!-- ``` -->
 
 
 # Awards, Grants and Scholarships
