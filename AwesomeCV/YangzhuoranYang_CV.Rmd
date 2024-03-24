@@ -99,6 +99,20 @@ tribble(
   "2017, 2019 - 2020, 2022 - Present",
   "Econometrics and Business Analytics",
   
+    ####
+  "Research Assistant", 
+  "Monash University", 
+  "Clayton, Australia", 
+  "2017 - 2020, 2022 - Present", 
+  "Developments of R packages and data wrangling",
+  
+  "Research Assistant", 
+  "Monash University", 
+  "Clayton, Australia", 
+  "2017 - 2020, 2022 - Present", 
+  "Supervisors: Associate Professor Bonsoo Koo, Associate Professor Dan Zhu, and Professor Rob Hyndman",
+  
+  
   "Applied Economist", 
   "Huohua Siwei (Online Education) ", 
   "Beijing, China", 
@@ -118,18 +132,7 @@ tribble(
   "Dec. 2019 - Aug. 2020",
   "Supervisor: Assistant Professor Ziping Zhao",
   
-  ####
-  "Research Assistant", 
-  "Monash University", 
-  "Clayton, Australia", 
-  "Sep. 2017 - Aug. 2020", 
-  "Developments of R packages and data wrangling",
-  
-  "Research Assistant", 
-  "Monash University", 
-  "Clayton, Australia", 
-  "Sep. 2017 - Aug. 2020", 
-  "Supervisors: Associate Professor Bonsoo Koo, Associate Professor Dan Zhu, and Professor Rob Hyndman",
+
   
   
 ) %>% 
@@ -161,7 +164,7 @@ tribble(
 "Highest student satisfaction band; One of the top performing units in the Student Evaluation",
 
 "Business and Economic Statistics", "Undergraduate", 
-"Sem 1 2019, Sem 2 2019",
+"Sem 1 2019, Sem 2 2019, Sem 1 2024",
 ""
 ) %>% 
   # detailed_entries(with = unit, where = time, what = letter, when = level)
@@ -171,11 +174,11 @@ tribble(
 \pagebreak
 # Job Market Paper
 
-"Forecast Linear Augmented Projection: A free lunch to reduce forecast variance using linear combinations" by Yangzhuoran Fin Yang, Rob J. Hyndman, George Athanasopoulos and Anastasios Panagiotelis
+"Forecast Linear Augmented Projection: A free lunch to reduce forecast variance" by Yangzhuoran Fin Yang, George Athanasopoulos, Rob J. Hyndman and Anastasios Panagiotelis
 
 \begin{cvparagraph}
 \textit{Abstract}: 
-We introduce a novel forecast linear augmented projection (flap) method designed to reduce forecast variance of arbitrary multivariate forecasts without introducing bias. This method leverages direct and indirect forecasts of the series and thus offers a "free lunch" by requiring no additional data or information. The flap method adjusts the forecasts of multivariate time series to be consistent with the forecasts of linear combinations (components) of the series by projecting all forecasts onto the space where the linear constraints are satisfied. The forecast variance can be reduced monotonically by including more components. For a given number of components, the proposed method achieves maximum forecast variance reduction among linear projections. Substantial variance reduction is observed in simulation and two applications on the Australian domestic tourism data set and the FRED-MD data set, validating theoretical findings. Notably, forecast projection with Principal Component Analysis (PCA) as the component construction method demonstrates effective variance reduction. We observe the source of the reduction is the reduction of model misspecification error.
+A novel forecast linear augmented projection (FLAP) method that provably reduces the forecast error variance of any unbiased multivariate forecast without introducing bias, is introduced. The method first constructs new series, called components, as linear combinations of the original series. Forecasts are then generated for both the original and new series. Finally, the full vector of forecasts are projected onto a linear subspace where the constraints implied by the combination weights hold. It is proven that the trace of the forecast variance is non-increasing with the number of components, and mild conditions are established for which it is strictly decreasing. It is also shown that the proposed method achieves maximum forecast variance reduction among linear projections. The theoretical results are validated through simulations and two empirical applications based on Australian tourism and FRED-MD data. Notably, using FLAP with Principal Component Analysis (PCA) to construct the new series leads to substantial forecast error variance reduction.
 
 \end{cvparagraph}
 
