@@ -106,13 +106,6 @@ tribble(
   "2017 - 2020, 2022 - Present", 
   "Developments of R packages and data wrangling",
   
-  "Research Assistant", 
-  "Monash University", 
-  "Clayton, Australia", 
-  "2017 - 2020, 2022 - Present", 
-  "Supervisors: Associate Professor Bonsoo Koo, Associate Professor Dan Zhu, and Professor Rob Hyndman",
-  
-  
   "Applied Economist", 
   "Huohua Siwei (Online Education) ", 
   "Beijing, China", 
@@ -151,13 +144,14 @@ tribble(
 "Sem 1 2022,  Sem 1 2023",
 "Highest student satisfaction band; One of the top performing units in the Student Evaluation",
 
+"Advanced Statistical Modelling", "Undergraduate and postgraduate", 
+"Sem 2 2022, Sem 1 2023",
+"Highest student satisfaction band",
+
 "Principles of Econometrics", "Undergraduate and postgraduate", 
 "Sem 2 2023",
 "Highest student satisfaction band",
 
-"Advanced Statistical Modelling", "Undergraduate and postgraduate", 
-"Sem 2 2022, Sem 1 2023",
-"Highest student satisfaction band",
 
 "Business Statistics", "Undergraduate and postgraduate", 
 "NOV12 2020, Sem 1 2021",
@@ -174,11 +168,11 @@ tribble(
 \pagebreak
 # Job Market Paper
 
-"Forecast Linear Augmented Projection: A free lunch to reduce forecast variance" by Yangzhuoran Fin Yang, George Athanasopoulos, Rob J. Hyndman and Anastasios Panagiotelis
+"Forecast Linear Augmented Projection (FLAP): A free lunch to reduce forecast error variance" by Yangzhuoran Fin Yang, George Athanasopoulos, Rob J. Hyndman and Anastasios Panagiotelis
 
 \begin{cvparagraph}
 \textit{Abstract}: 
-A novel forecast linear augmented projection (FLAP) method that provably reduces the forecast error variance of any unbiased multivariate forecast without introducing bias, is introduced. The method first constructs new series, called components, as linear combinations of the original series. Forecasts are then generated for both the original and new series. Finally, the full vector of forecasts are projected onto a linear subspace where the constraints implied by the combination weights hold. It is proven that the trace of the forecast variance is non-increasing with the number of components, and mild conditions are established for which it is strictly decreasing. It is also shown that the proposed method achieves maximum forecast variance reduction among linear projections. The theoretical results are validated through simulations and two empirical applications based on Australian tourism and FRED-MD data. Notably, using FLAP with Principal Component Analysis (PCA) to construct the new series leads to substantial forecast error variance reduction.
+A novel forecast linear augmented projection (FLAP) method is introduced. FLAP provably reduces the forecast error variance of any unbiased multivariate forecast without introducing bias. The method first constructs new series as linear combinations of the original series. Forecasts are then generated for both the original and new series. Finally, the full vector of forecasts is projected onto a linear subspace where the constraints implied by the combination weights hold. These new series are called components. It is proven that the trace of the forecast error variance is non-increasing with the number of components, and mild conditions are established for which it is strictly decreasing. It is also shown that the proposed method achieves maximum forecast error variance reduction among linear projections. The theoretical results are validated through simulations and two empirical applications based on Australian tourism and FRED-MD data. Notably, using FLAP with Principal Component Analysis (PCA) to construct the new series leads to substantial forecast error variance reduction.
 
 \end{cvparagraph}
 
@@ -192,27 +186,34 @@ bibliography_entries("publications.bib") %>%
   `rownames<-`(NULL)
 ```
 
-Yang, Y. F., and Zhao, Z. (2020), “Online Robust Reduced-Rank Regression,” in 2020 IEEE 11th Sensor Array and Multichannel Signal Processing Workshop (SAM), pp. 1–5.
+1. Seo, M. H., Koo, B., & Yang, Y. F. (2024). Nonlinear dynamics of Kimchi premium. Economic Modelling, 135, 106726.
+
+1. Yang, Y. F., and Zhao, Z. (2020), “Online Robust Reduced-Rank Regression,” in 2020 IEEE 11th Sensor Array and Multichannel Signal Processing Workshop (SAM), pp. 1–5.
 
 # Working Papers
 
-1. "Nonlinear Dynamics of Kimchi Premium" by Myung Hwan Seo, Bonsoo Koo, and Yangzhuoran Fin Yang (Under administrative revision)
+
 1. "Forecast Multivariate Time Series using Lower Dimensional Components" by Yangzhuoran Fin Yang, Rob J. Hyndman, George Athanasopoulos and Anastasios Panagiotelis
-1. "ycevo: An R Package for Yield Curve Nonparametric Estimation" jointly with Nico Purnomo, Wenying Yao and Bonsoo Koo
+
+1. "ycevo: An R Package for Nonparametric Yield Curve Estimation, Analyses and Prediction" by Yangzhuoran Fin Yang, Bonsoo Koo, Wenying Yao and Nico Purnomo
+
 1. "Forecast Linear Augmented Projection in Hierarchical Forecast Reconciliation"
+
 1. "Forecasting Multiple Time Series with One-Sided Dynamic Autoregressive Principal Components: A hybrid of Dynamic Factor Model and Vector Autoregression"
 
 <!-- # Professional Activities -->
 
-# Conferences
+# Conferences and Talks
 
 ```{r}
 tribble(
   ~ when, ~ title, ~ where, ~ url,
+  "Jul. 2024", "Annual useR! conference",   "Salzburg, Austria", "",
+  "Jul. 2024", "44th International Symposium On Forecasting",   "Dijon, France", "",
+  "Jun. 2024", "Annual Conference of the International Association for Applied Econometrics",   "Thessaloniki,~Greece~\\&~Xiamen,~China", "",
+  "Apr. 2024", "Monash NUMBATs Seminar",   "Melbourne, Australia", "",
   "Jun. 2023", "43rd International Symposium on Forecasting", 
   "Charlottesville, USA", "https://github.com/FinYang/talk.ComponentsForecast",
-  "Dec. 2020", "Doctoral Research Colloquium, Monash Business School", 
-  "Virtual", "https://yangzhuoranyang.com/talk/colloquium2020/",
   "Jun. 2020", "11th IEEE Sensor Array and Multichannel Signal Processing Workshop", 
   "Virtual", "https://yangzhuoranyang.com/talk/orrrr/",
 ) %>% 
