@@ -107,7 +107,7 @@ tribble(
   "2017 - 2020, 2022 - Present", 
   "Developments of R packages and data wrangling",
   
-  "Applied Economist", 
+  "Data Mining Engineer (Applied Economist)", 
   "Huohua Siwei (Online Education) ", 
   "Beijing, China", 
   "Apr. 2021 - Jan. 2022",
