@@ -210,7 +210,7 @@ bibliography_entries("publications.bib") %>%
 tribble(
   ~ when, ~ title, ~ where, ~ url,
   "Jul. 2024", "Annual useR! conference",   "Salzburg, Austria", "",
-  "Jul. 2024", "44th International Symposium On Forecasting",   "Dijon, France", "",
+  "Jul. 2024", "44th International Symposium on Forecasting",   "Dijon, France", "",
   "Jun. 2024", "Annual Conference of the International Association for Applied Econometrics",   "Thessaloniki,~Greece~\\&~Xiamen,~China", "",
   "Apr. 2024", "Monash NUMBATs Seminar",   "Melbourne, Australia", "",
   "Jun. 2023", "43rd International Symposium on Forecasting", 
