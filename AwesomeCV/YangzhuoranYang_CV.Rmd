@@ -5,9 +5,10 @@ address: "Monash University, Australia"
 phone: +61 414 060 712
 www: yangzhuoranyang.com
 email: "Fin.Yang@monash.edu"
-twitter: YangzhuoranY
 github: FinYang
 linkedin: yangzhuoranyang
+orcid: 0000-0002-1232-8017
+googlescholar: keAhMnIAAAAJ
 headcolor: 414141
 date: "`r format(Sys.time(), '%B %Y')`"
 output: 
