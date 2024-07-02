@@ -194,7 +194,7 @@ bibliography_entries("publications.bib") %>%
 # Working Papers
 
 
-1. "ycevo: An R Package for Nonparametric Yield Curve Estimation, Analyses and Prediction" by Yangzhuoran Fin Yang, Bonsoo Koo, Wenying Yao and Nico Purnomo (Submitted to the Journal of Statistical Software)
+1. "ycevo: An R Package for Nonparametric Yield Curve Estimation, Analyses and Prediction" by Yangzhuoran Fin Yang, Bonsoo Koo, Wenying Yao and Nico Purnomo
 
 1. "Forecast Multivariate Time Series using Lower Dimensional Components" by Yangzhuoran Fin Yang, Rob J. Hyndman, George Athanasopoulos and Anastasios Panagiotelis
 
