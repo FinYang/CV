@@ -150,16 +150,15 @@ tribble(
 "Highest student satisfaction band",
 
 "Principles of Econometrics", "Undergraduate and postgraduate", 
-"Sem 2 2023",
+"Sem 2 2023, Sem 2 2024",
 "Highest student satisfaction band",
 
-
-"Business Statistics", "Undergraduate and postgraduate", 
-"NOV12 2020, Sem 1 2021",
+"Business and Economic Statistics", "Undergraduate and postgraduate", 
+"2019, NOV12 2020, Sem 1 2021, 2024",
 "Highest student satisfaction band; One of the top performing units in the Student Evaluation",
 
-"Business and Economic Statistics", "Undergraduate", 
-"Sem 1 2019, Sem 2 2019, Sem 1 2024",
+"Introductory Econometrics", "Undergraduate and postgraduate", 
+"Sem 2 2024",
 ""
 ) %>% 
   # detailed_entries(with = unit, where = time, what = letter, when = level)
