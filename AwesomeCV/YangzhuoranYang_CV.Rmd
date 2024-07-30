@@ -55,12 +55,12 @@ tribble(
   "Doctor of Philosophy in Statistics", 
   "Monash University", "Clayton, Australia", 
   "Apr. 2020 - Present", 
-  "Thesis: Component-based Approaches in Multivariate and Hierarchical Forecasting",
+  "Thesis: Component-Based Methods in Multivariate and Hierarchical Time Series Forecasting",
   
   "Doctor of Philosophy in Statistics", 
   "Monash University", "Clayton, Australia", 
   "Apr. 2020 - Present", 
-  "Expected July 2024 (Intermission from May 2021 to Feb 2022 due to COVID-19)",
+  "Submitted July 2024 (Intermission from May 2021 to Feb 2022 due to COVID-19)",
   
   ###
   
