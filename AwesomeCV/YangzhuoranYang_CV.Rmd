@@ -172,9 +172,9 @@ tribble(
 
 \begin{cvparagraph}
 \textit{Abstract}: 
-A novel forecast linear augmented projection (FLAP) method is introduced. FLAP provably reduces the forecast error variance of any unbiased multivariate forecast without introducing bias. The method first constructs new series as linear combinations of the original series. Forecasts are then generated for both the original and new series. Finally, the full vector of forecasts is projected onto a linear subspace where the constraints implied by the combination weights hold. These new series are called components. It is proven that the trace of the forecast error variance is non-increasing with the number of components, and mild conditions are established for which it is strictly decreasing. It is also shown that the proposed method achieves maximum forecast error variance reduction among linear projections. The theoretical results are validated through simulations and two empirical applications based on Australian tourism and FRED-MD data. Notably, using FLAP with Principal Component Analysis (PCA) to construct the new series leads to substantial forecast error variance reduction.
-
+We propose a novel forecast linear augmented projection (FLAP) method that can reduce the forecast error variance of any multivariate forecast. The method first constructs new component series which are linear combinations of the original series. Forecasts are then generated for both the original and component series. Finally, the full vector of forecasts is projected onto a linear subspace where the constraints implied by the combination weights hold. We show that the projection using the original forecast error covariance matrix will result in improved forecasts. Notably, the new forecast error variance of each series is non-increasing with the number of components, and mild conditions are established for which it is strictly decreasing. It is also shown that the proposed method achieves maximum forecast error variance reduction among linear projection methods. We demonstrate our proposed method with an estimated covariance matrix using simulations and two empirical applications based on Australian tourism and FRED-MD data. In all cases, forecasts are improved. Notably, using FLAP with Principal Component Analysis (PCA) to construct the new series leads to substantial forecast error variance reduction.
 \end{cvparagraph}
+\vspace{-2pt}
 
 # Publications
 
@@ -190,6 +190,8 @@ bibliography_entries("publications.bib") %>%
 
 1. Yang, Y. F., and Zhao, Z. (2020), “Online Robust Reduced-Rank Regression,” in 2020 IEEE 11th Sensor Array and Multichannel Signal Processing Workshop (SAM), pp. 1–5.
 
+\vspace{-2pt}
+
 # Working Papers
 
 
@@ -202,6 +204,7 @@ bibliography_entries("publications.bib") %>%
 1. "Forecasting Multiple Time Series with One-Sided Dynamic Autoregressive Principal Components"
 
 <!-- # Professional Activities -->
+\vspace{-2pt}
 
 # Conferences and Talks
 
@@ -235,6 +238,7 @@ tribble(
 <!--   brief_entries(journal, with= time, .protect = FALSE) -->
 <!-- ``` -->
 
+\vspace{-2pt}
 
 # Awards, Grants and Scholarships
 
