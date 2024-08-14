@@ -1,6 +1,6 @@
 ---
 name: Yangzhuoran Fin Yang
-position: "PhD Student in Statistics"
+position: "PhD Student in Mathematics and Statistics"
 address: "Monash University, Australia"
 phone: +61 414 060 712
 www: yangzhuoranyang.com
@@ -47,17 +47,17 @@ write_packages_bib(
 #| eval: true
 tribble(
   ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
-  "Doctor of Philosophy in Statistics", 
+  "Doctor of Philosophy in Mathematics and Statistics", 
   "Monash University", "Clayton, Australia", 
   "Apr. 2020 - Present", 
   "Supervisors: Professor Rob J Hyndman, Professor George Athanasopoulos, Associate Professor Anastasios Panagiotelis",
   
-  "Doctor of Philosophy in Statistics", 
+  "Doctor of Philosophy in Mathematics and Statistics", 
   "Monash University", "Clayton, Australia", 
   "Apr. 2020 - Present", 
   "Thesis: Component-Based Methods in Multivariate and Hierarchical Time Series Forecasting",
   
-  "Doctor of Philosophy in Statistics", 
+  "Doctor of Philosophy in Mathematics and Statistics", 
   "Monash University", "Clayton, Australia", 
   "Apr. 2020 - Present", 
   "Submitted July 2024 (Intermission from May 2021 to Feb 2022 due to COVID-19)",
@@ -98,7 +98,7 @@ tribble(
   "Monash University", 
   "Clayton, Australia", 
   "2017, 2019 - 2020, 2022 - Present",
-  "Econometrics and Business Analytics",
+  "Econometrics, Statistics and Business Analytics",
   
     ####
   "Research Assistant", 
