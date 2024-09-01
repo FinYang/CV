@@ -27,18 +27,21 @@ library(tidyverse)
 # Construct bib file for R packages
 source("Rpackages.R")
 write_packages_bib(
-  pkglist = c("RRRR", 
-              "tsfeatures",
-              "Mcomp",
-              "tscompdata", 
-              "tsdl", 
-              "stocon",
-              "compenginets", 
-              "lazytype", 
-              "lazybar",
-              "ycevo", 
-              "demography"),
-  file="Rpackages.bib")
+  pkglist = c(
+    "RRRR",
+    "tsfeatures",
+    "Mcomp",
+    "tscompdata",
+    "tsdl",
+    "stocon",
+    "compenginets",
+    "lazytype",
+    "lazybar",
+    "ycevo",
+    "demography"
+  ),
+  file = "Rpackages.bib"
+)
 ```
 
 # Education
@@ -46,43 +49,40 @@ write_packages_bib(
 ```{r}
 #| eval: true
 tribble(
-  ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
-  "Doctor of Philosophy in Mathematics and Statistics", 
-  "Monash University", "Clayton, Australia", 
-  "Apr. 2020 - Present", 
+  ~degree, ~uni, ~loc, ~dates, ~details,
+  "Doctor of Philosophy in Mathematics and Statistics",
+  "Monash University", "Clayton, Australia",
+  "Apr. 2020 - Present",
   "Supervisors: Professor Rob J Hyndman, Professor George Athanasopoulos, Associate Professor Anastasios Panagiotelis",
-  
-  "Doctor of Philosophy in Mathematics and Statistics", 
-  "Monash University", "Clayton, Australia", 
-  "Apr. 2020 - Present", 
+  #
+  "Doctor of Philosophy in Mathematics and Statistics",
+  "Monash University", "Clayton, Australia",
+  "Apr. 2020 - Present",
   "Thesis: Component-Based Methods in Multivariate and Hierarchical Time Series Forecasting",
-  
-  "Doctor of Philosophy in Mathematics and Statistics", 
-  "Monash University", "Clayton, Australia", 
-  "Apr. 2020 - Present", 
+  #
+  "Doctor of Philosophy in Mathematics and Statistics",
+  "Monash University", "Clayton, Australia",
+  "Apr. 2020 - Present",
   "Submitted July 2024 (Intermission from May 2021 to Feb 2022 due to COVID-19)",
-  
+
   ###
-  
-  "Bachelor of Commerce (Hons) in Econometrics", 
-  "Monash University", "Clayton, Australia", 
-  "Mar. 2019 - Dec. 2019", 
+
+  "Bachelor of Commerce (Hons) in Econometrics",
+  "Monash University", "Clayton, Australia",
+  "Mar. 2019 - Dec. 2019",
   "Thesis: Optimal Portfolio Selection via Dimensional Reduction in a Stochastic Optimal Control Setting",
-  
-  "Bachelor of Commerce (Hons) in Econometrics", 
-  "Monash University", 
-  "Clayton, Australia", 
-  "Mar. 2019 - Dec. 2019", 
+  #
+  "Bachelor of Commerce (Hons) in Econometrics",
+  "Monash University", "Clayton, Australia",
+  "Mar. 2019 - Dec. 2019",
   "GPA: 3.875; GRADE H1",
-  
-  "Bachelor of Actuarial Science", 
-  "Monash University", 
-  "Clayton, Australia", 
-  "Jul. 2016 - Oct. 2018", 
-  "GPA: 4; WAM: 90.323", 
-) %>% 
-  
-  detailed_entries( uni, dates,degree, loc, details)
+  #
+  "Bachelor of Actuarial Science",
+  "Monash University", "Clayton, Australia",
+  "Jul. 2016 - Oct. 2018",
+  "GPA: 4; WAM: 90.323",
+) %>%
+  detailed_entries(uni, dates, degree, loc, details)
 
 ```
 
@@ -92,45 +92,38 @@ tribble(
 #| eval: true
 
 tribble(
-  ~ role, ~ company, ~ loc, ~ dates, ~ details,
-  
-  "Teaching Associate", 
-  "Monash University", 
-  "Clayton, Australia", 
+  ~role, ~company, ~loc, ~dates, ~details,
+  "Teaching Associate",
+  "Monash University",
+  "Clayton, Australia",
   "2017, 2019 - 2020, 2022 - Present",
   "Econometrics, Statistics and Business Analytics",
-  
-    ####
-  "Research Assistant", 
-  "Monash University", 
-  "Clayton, Australia", 
-  "2017 - 2020, 2022 - Present", 
+  #
+  "Research Assistant",
+  "Monash University",
+  "Clayton, Australia",
+  "2017 - 2020, 2022 - Present",
   "Developments of R packages and data wrangling",
-  
-  "Data Mining Engineer (Applied Economist)", 
-  "Huohua Siwei (Online Education) ", 
-  "Beijing, China", 
+  #
+  "Data Mining Engineer (Applied Economist)",
+  "Huohua Siwei (Online Education) ",
+  "Beijing, China",
   "Apr. 2021 - Jan. 2022",
   "Experimental design and evaluation, data mining and R web app development",
-  
-  "Adjunct Lecturer", 
+  #
+  "Adjunct Lecturer",
   "Monash University",
-  "Suzhou, China", 
-  "Oct. 2020 - Jun. 2021", 
+  "Suzhou, China",
+  "Oct. 2020 - Jun. 2021",
   "Suzhou Industrial Park Monash Research Institute of Science and Techology",
-  
-  
+  #
   "Visiting Student",
   "ShanghaiTech University SIST",
   "Shanghai, China",
   "Dec. 2019 - Aug. 2020",
   "Supervisor: Assistant Professor Ziping Zhao",
-  
-
-  
-  
-) %>% 
-  detailed_entries( company,  dates, role,loc, details)
+) %>%
+  detailed_entries(company, dates, role, loc, details)
 
 ```
 
@@ -140,27 +133,27 @@ tribble(
 ``` {r}  
 #| eval: true
 tribble(
-  ~ unit, ~level, ~ time, ~ letter,
-"Applied Forecasting", "Undergraduate and postgraduate", 
-"Sem 1 2022,  Sem 1 2023",
-"Highest student satisfaction band; One of the top performing units in the Student Evaluation",
-
-"Advanced Statistical Modelling", "Undergraduate and postgraduate", 
-"Sem 2 2022, Sem 1 2023",
-"Highest student satisfaction band",
-
-"Principles of Econometrics", "Undergraduate and postgraduate", 
-"Sem 2 2023, Sem 2 2024",
-"Highest student satisfaction band",
-
-"Business and Economic Statistics", "Undergraduate and postgraduate", 
-"2019, NOV12 2020, Sem 1 2021, 2024",
-"Highest student satisfaction band; One of the top performing units in the Student Evaluation",
-
-"Introductory Econometrics", "Undergraduate and postgraduate", 
-"Sem 2 2024",
-""
-) %>% 
+  ~unit, ~level, ~time, ~letter,
+  "Applied Forecasting", "Undergraduate and postgraduate",
+  "Sem 1 2022,  Sem 1 2023",
+  "Highest student satisfaction band; One of the top performing units in the Student Evaluation",
+  #
+  "Advanced Statistical Modelling", "Undergraduate and postgraduate",
+  "Sem 2 2022, Sem 1 2023",
+  "Highest student satisfaction band",
+  #
+  "Principles of Econometrics", "Undergraduate and postgraduate",
+  "Sem 2 2023, Sem 2 2024",
+  "Highest student satisfaction band",
+  #
+  "Business and Economic Statistics", "Undergraduate and postgraduate",
+  "2019, NOV12 2020, Sem 1 2021, 2024",
+  "Highest student satisfaction band; One of the top performing units in the Student Evaluation",
+  #
+  "Introductory Econometrics", "Undergraduate and postgraduate",
+  "Sem 2 2024",
+  ""
+) %>%
   # detailed_entries(with = unit, where = time, what = letter, when = level)
   detailed_entries(with = unit, when = time, what = letter, where = level)
 ```
@@ -182,7 +175,7 @@ We propose a novel forecast linear augmented projection (FLAP) method that can r
 #| eval: FALSE
 # pubs <- ReadBib("publications.bib", check = FALSE)
 bibliography_entries("publications.bib") %>%
-  arrange(issued, author) %>% 
+  arrange(issued, author) %>%
   `rownames<-`(NULL)
 ```
 
@@ -210,16 +203,16 @@ bibliography_entries("publications.bib") %>%
 
 ```{r}
 tribble(
-  ~ when, ~ title, ~ where, ~ url,
-  "Jul. 2024", "Annual useR! conference",   "Salzburg, Austria", "",
-  "Jul. 2024", "44th International Symposium on Forecasting",   "Dijon, France", "",
-  "Jun. 2024", "Annual Conference of the International Association for Applied Econometrics",   "Thessaloniki,~Greece~\\&~Xiamen,~China", "",
-  "Apr. 2024", "Monash NUMBATs Seminar",   "Melbourne, Australia", "",
-  "Jun. 2023", "43rd International Symposium on Forecasting", 
+  ~when, ~title, ~where, ~url,
+  "Jul. 2024", "Annual useR! conference", "Salzburg, Austria", "",
+  "Jul. 2024", "44th International Symposium on Forecasting", "Dijon, France", "",
+  "Jun. 2024", "Annual Conference of the International Association for Applied Econometrics", "Thessaloniki,~Greece~\\&~Xiamen,~China", "",
+  "Apr. 2024", "Monash NUMBATs Seminar", "Melbourne, Australia", "",
+  "Jun. 2023", "43rd International Symposium on Forecasting",
   "Charlottesville, USA", "https://github.com/FinYang/talk.ComponentsForecast",
-  "Jun. 2020", "11th IEEE Sensor Array and Multichannel Signal Processing Workshop", 
+  "Jun. 2020", "11th IEEE Sensor Array and Multichannel Signal Processing Workshop",
   "Virtual", "https://yangzhuoranyang.com/talk/orrrr/",
-) %>% 
+) %>%
   brief_entries(glue::glue("\\textbf{<title>}", .open = "<", .close = ">"), when, where, .protect = FALSE)
 ```
 
@@ -266,9 +259,16 @@ tribble(
 # Sort R packages by title, then year.
 options("encoding" = "UTF-8")
 pkgbib <- bibliography_entries("Rpackages.bib") %>%
-  arrange(title, issued) 
-# solve ' display issue on windows 
-pkgbib$author <- pkgbib$author %>% lapply(function(lname) lapply(lname, function(lname2) lapply(lname2, function(x){gsub("â€™","'", x)} ))) %>%
+  arrange(title, issued)
+# solve ' display issue on windows
+pkgbib$author <- pkgbib$author %>%
+  lapply(function(lname) {
+    lapply(lname, function(lname2) {
+      lapply(lname2, function(x) {
+        gsub("â€™", "'", x)
+      })
+    })
+  }) %>%
   `class<-`(class(pkgbib$author))
 pkgbib
 ```
@@ -277,27 +277,25 @@ pkgbib
 
 ```{r}
 tribble(
-~ name, ~ uni, ~ dep, ~ loc, ~ email,
-"Professor Rob J Hyndman", 
-"Monash University", 
-"Department of Econometrics & Business Statistics", 
-"Clayton, Australia", 
-"Email: Rob.Hyndman@monash.edu",
-
-"Professor George Athanasopoulos", 
-"Monash University", 
-"Department of Econometrics & Business Statistics", 
-"Clayton, Australia", 
-"Email: George.Athanasopoulos@monash.edu",
-
-"Associate Professor Anastasios Panagiotelis", 
-"University of Sydney Business School", 
-"Discipline of Business Analytics", 
-"Darlington, Australia", 
-"Email: Anastasios.Panagiotelis@sydney.edu.au",
-
-) %>% 
-
-detailed_entries(dep, loc, name, uni, email)
+  ~name, ~uni, ~dep, ~loc, ~email,
+  "Professor Rob J Hyndman",
+  "Monash University",
+  "Department of Econometrics & Business Statistics",
+  "Clayton, Australia",
+  "Email: Rob.Hyndman@monash.edu",
+  #
+  "Professor George Athanasopoulos",
+  "Monash University",
+  "Department of Econometrics & Business Statistics",
+  "Clayton, Australia",
+  "Email: George.Athanasopoulos@monash.edu",
+  #
+  "Associate Professor Anastasios Panagiotelis",
+  "University of Sydney Business School",
+  "Discipline of Business Analytics",
+  "Darlington, Australia",
+  "Email: Anastasios.Panagiotelis@sydney.edu.au",
+) %>%
+  detailed_entries(dep, loc, name, uni, email)
 ```
 
