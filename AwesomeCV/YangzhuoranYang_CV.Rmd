@@ -161,7 +161,7 @@ tribble(
 \pagebreak
 # Job Market Paper
 
-"Forecast Linear Augmented Projection (FLAP): A free lunch to reduce forecast error variance" by Yangzhuoran Fin Yang, George Athanasopoulos, Rob J. Hyndman and Anastasios Panagiotelis (submitted to the Journal of the American Statistical Association)
+Forecast Linear Augmented Projection (FLAP): A free lunch to reduce forecast error variance
 
 \begin{cvparagraph}
 \textit{Abstract}: 
@@ -186,6 +186,8 @@ bibliography_entries("publications.bib") %>%
 \vspace{-2pt}
 
 # Working Papers
+
+1. "Forecast Linear Augmented Projection (FLAP): A free lunch to reduce forecast error variance" by Yangzhuoran Fin Yang, George Athanasopoulos, Rob J. Hyndman and Anastasios Panagiotelis (under review at the Journal of the American Statistical Association)
 
 
 1. "ycevo: An R Package for Nonparametric Yield Curve Estimation, Analyses and Prediction" by Yangzhuoran Fin Yang, Bonsoo Koo, Wenying Yao and Nico Purnomo
@@ -247,7 +249,7 @@ tribble(
 - 2018 Monash University Medal for Undergraduate Academic Excellence
 - 2018 Monash Business School Dean's Honour
 - 2018 Monash Business School Student Excellence Award in recognition of exceptional academic excellence (Business analytics, Modelling in finance and insurance, Applied forecasting for business and economics)
-- 2018 The International Institute of Forecasters Student Forecasting Award offered by Monash University Applied Forecasting for Business and Economics 
+- 2018 The International Institute of Forecasters Student Forecasting Award
 - 2017 Monash Business School Student Excellence Award in recognition of exceptional academic excellence (Statistical Thinking, Principles of Econometrics, Contingencies in insurance and pensions)
 
 \pagebreak
