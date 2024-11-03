@@ -4,7 +4,7 @@ position: "PhD Student in Mathematics and Statistics"
 address: "Monash University, Australia"
 phone: +61 414 060 712
 www: yangzhuoranyang.com
-email: "Fin.Yang@monash.edu"
+email: "Yangzhuoran.Yang@monash.edu"
 github: FinYang
 linkedin: yangzhuoranyang
 orcid: 0000-0002-1232-8017
@@ -181,13 +181,13 @@ bibliography_entries("publications.bib") %>%
 
 1. Seo, M. H., Koo, B., & Yang, Y. F. (2024). Nonlinear dynamics of Kimchi premium. Economic Modelling, 135, 106726.
 
-1. Yang, Y. F., and Zhao, Z. (2020), “Online Robust Reduced-Rank Regression,” in 2020 IEEE 11th Sensor Array and Multichannel Signal Processing Workshop (SAM), pp. 1–5.
+1. Yang, Y. F., and Zhao, Z. (2020), “Online Robust Reduced-Rank Regression” in 2020 IEEE 11th Sensor Array and Multichannel Signal Processing Workshop (SAM), pp. 1–5.
 
 \vspace{-2pt}
 
 # Working Papers
 
-1. "Forecast Linear Augmented Projection (FLAP): A free lunch to reduce forecast error variance" by Yangzhuoran Fin Yang, George Athanasopoulos, Rob J. Hyndman and Anastasios Panagiotelis (under review at the Journal of the American Statistical Association)
+1. "Forecast Linear Augmented Projection (FLAP): A free lunch to reduce forecast error variance" by Yangzhuoran Fin Yang, George Athanasopoulos, Rob J. Hyndman and Anastasios Panagiotelis
 
 
 1. "ycevo: An R Package for Nonparametric Yield Curve Estimation, Analyses and Prediction" by Yangzhuoran Fin Yang, Bonsoo Koo, Wenying Yao and Nico Purnomo
@@ -274,6 +274,7 @@ pkgbib$author <- pkgbib$author %>%
   `class<-`(class(pkgbib$author))
 pkgbib
 ```
+
 
 # Referees
 
