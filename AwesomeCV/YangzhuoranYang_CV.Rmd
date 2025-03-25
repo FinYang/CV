@@ -1,10 +1,10 @@
 ---
 name: Yangzhuoran Fin Yang
-position: "PhD Student in Mathematics and Statistics"
-address: "Monash University, Australia"
-phone: +61 414 060 712
+position: "PhD in Mathematics and Statistics"
+address: "Maastricht University, Netherlands"
+# phone: +61 414 060 712
 www: yangzhuoranyang.com
-email: "Yangzhuoran.Yang@monash.edu"
+email: "Yangzhuoran.Yang@maastrichtuniversity.nl"
 github: FinYang
 linkedin: yangzhuoranyang
 orcid: 0000-0002-1232-8017
@@ -52,18 +52,13 @@ tribble(
   ~degree, ~uni, ~loc, ~dates, ~details,
   "Doctor of Philosophy in Mathematics and Statistics",
   "Monash University", "Clayton, Australia",
-  "Apr. 2020 - Present",
+  "Apr. 2020 - Jan. 2025",
   "Supervisors: Professor Rob J Hyndman, Professor George Athanasopoulos, Associate Professor Anastasios Panagiotelis",
   #
   "Doctor of Philosophy in Mathematics and Statistics",
   "Monash University", "Clayton, Australia",
-  "Apr. 2020 - Present",
+  "Apr. 2020 - Jan. 2025",
   "Thesis: Component-Based Methods in Multivariate and Hierarchical Time Series Forecasting",
-  #
-  "Doctor of Philosophy in Mathematics and Statistics",
-  "Monash University", "Clayton, Australia",
-  "Apr. 2020 - Present",
-  "Submitted July 2024 (Intermission from May 2021 to Feb 2022 due to COVID-19)",
 
   ###
 
@@ -93,16 +88,22 @@ tribble(
 
 tribble(
   ~role, ~company, ~loc, ~dates, ~details,
+  "Postdoctoral Researcher",
+  "Maastricht University",
+  "Maastricht, Netherlands",
+  "Mar. 2025 - Present",
+  "Department of Quantitative Economics, School of Business and Economics",
+  #
   "Teaching Associate",
   "Monash University",
   "Clayton, Australia",
-  "2017, 2019 - 2020, 2022 - Present",
+  "2017, 2019 - 2020, 2022 - 2024",
   "Econometrics, Statistics and Business Analytics",
   #
   "Research Assistant",
   "Monash University",
   "Clayton, Australia",
-  "2017 - 2020, 2022 - Present",
+  "2017 - 2020, 2022 - 2024",
   "Developments of R packages and data wrangling",
   #
   "Data Mining Engineer (Applied Economist)",
@@ -116,12 +117,6 @@ tribble(
   "Suzhou, China",
   "Oct. 2020 - Jun. 2021",
   "Suzhou Industrial Park Monash Research Institute of Science and Techology",
-  #
-  "Visiting Student",
-  "ShanghaiTech University SIST",
-  "Shanghai, China",
-  "Dec. 2019 - Aug. 2020",
-  "Supervisor: Assistant Professor Ziping Zhao",
 ) %>%
   detailed_entries(company, dates, role, loc, details)
 
