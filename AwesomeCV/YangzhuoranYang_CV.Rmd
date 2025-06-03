@@ -1,6 +1,6 @@
 ---
 name: Yangzhuoran Fin Yang
-position: "PhD in Mathematics and Statistics"
+position: "Postdoctoral Researcher in Econometrics"
 address: "Maastricht University, Netherlands"
 # phone: +61 414 060 712
 www: yangzhuoranyang.com
@@ -102,7 +102,11 @@ tribble(
 #| eval: true
 
 tribble(
-  ~role, ~company, ~loc, ~dates, ~details,
+  ~role,
+  ~company,
+  ~loc,
+  ~dates,
+  ~details,
   "Postdoctoral Researcher",
   "Maastricht University",
   "Maastricht, Netherlands",
