@@ -49,36 +49,46 @@ write_packages_bib(
 ```{r}
 #| eval: true
 tribble(
-  ~degree, ~uni, ~loc, ~dates, ~details,
+  ~degree,
+  ~uni,
+  ~loc,
+  ~dates,
+  ~details,
   "Doctor of Philosophy in Mathematics and Statistics",
-  "Monash University", "Clayton, Australia",
-  "Apr. 2020 - Present",
+  "Monash University",
+  "Clayton, Australia",
+  "Apr. 2020 - Jan. 2025",
   "Supervisors: Professor Rob J Hyndman, Professor George Athanasopoulos, Associate Professor Anastasios Panagiotelis",
   #
   "Doctor of Philosophy in Mathematics and Statistics",
-  "Monash University", "Clayton, Australia",
-  "Apr. 2020 - Present",
+  "Monash University",
+  "Clayton, Australia",
+  "Apr. 2020 - Jan. 2025",
   "Thesis: Component-Based Methods in Multivariate and Hierarchical Time Series Forecasting",
   #
   "Doctor of Philosophy in Mathematics and Statistics",
-  "Monash University", "Clayton, Australia",
-  "Apr. 2020 - Present",
-  "Submitted July 2024 (Intermission from May 2021 to Feb 2022 due to COVID-19)",
+  "Monash University",
+  "Clayton, Australia",
+  "Apr. 2020 - Jan. 2025",
+  "Intermission from May 2021 to Feb 2022 due to COVID-19",
 
   ###
 
   "Bachelor of Commerce (Hons) in Econometrics",
-  "Monash University", "Clayton, Australia",
+  "Monash University",
+  "Clayton, Australia",
   "Mar. 2019 - Dec. 2019",
   "Thesis: Optimal Portfolio Selection via Dimensional Reduction in a Stochastic Optimal Control Setting",
   #
   "Bachelor of Commerce (Hons) in Econometrics",
-  "Monash University", "Clayton, Australia",
+  "Monash University",
+  "Clayton, Australia",
   "Mar. 2019 - Dec. 2019",
   "GPA: 3.875; GRADE H1",
   #
   "Bachelor of Actuarial Science",
-  "Monash University", "Clayton, Australia",
+  "Monash University",
+  "Clayton, Australia",
   "Jul. 2016 - Oct. 2018",
   "GPA: 4; WAM: 90.323",
 ) %>%
@@ -92,17 +102,27 @@ tribble(
 #| eval: true
 
 tribble(
-  ~role, ~company, ~loc, ~dates, ~details,
+  ~role,
+  ~company,
+  ~loc,
+  ~dates,
+  ~details,
+  "Postdoctoral Researcher",
+  "Maastricht University",
+  "Maastricht, the Netherlands",
+  "Mar. 2025 - Present",
+  "Department of Quantitative Economics",
+  #
   "Teaching Associate",
   "Monash University",
   "Clayton, Australia",
-  "2017, 2019 - 2020, 2022 - Present",
+  "2017, 2019 - 2020, 2022 - 2025",
   "Econometrics, Statistics and Business Analytics",
   #
   "Research Assistant",
   "Monash University",
   "Clayton, Australia",
-  "2017 - 2020, 2022 - Present",
+  "2017 - 2020, 2022 - 2025",
   "Developments of R packages and data wrangling",
   #
   "Data Mining Engineer (Applied Economist)",
@@ -127,38 +147,78 @@ tribble(
 
 ```
 
+
+# Referees
+
+```{r}
+tribble(
+  ~name,
+  ~uni,
+  ~dep,
+  ~loc,
+  ~email,
+  "Associate Professor Ines Wilms",
+  "Maastricht University",
+  "Department of Quantitative Economics",
+  "Maastricht, the Netherlands",
+  "Email: i.wilms@maastrichtuniversity.nl",
+  #
+  "Professor Rob J Hyndman",
+  "Monash University",
+  "Department of Econometrics & Business Statistics",
+  "Clayton, Australia",
+  "Email: Rob.Hyndman@monash.edu",
+) %>%
+  detailed_entries(dep, loc, name, uni, email)
+```
+
+\pagebreak
 # Teaching
 
 
 ``` {r}  
 #| eval: true
 tribble(
-  ~unit, ~level, ~time, ~letter,
-  "Applied Forecasting", "Undergraduate and postgraduate",
+  ~unit,
+  ~level,
+  ~time,
+  ~letter,
+
+  "Applied Forecasting",
+  "Undergraduate and postgraduate",
   "Sem 1 2022,  Sem 1 2023",
   "Highest student satisfaction band; One of the top performing units in the Student Evaluation",
   #
-  "Advanced Statistical Modelling", "Undergraduate and postgraduate",
+  "Advanced Statistical Modelling",
+  "Undergraduate and postgraduate",
   "Sem 2 2022, Sem 1 2023",
   "Highest student satisfaction band",
   #
-  "Principles of Econometrics", "Undergraduate and postgraduate",
+  "Principles of Econometrics",
+  "Undergraduate and postgraduate",
   "Sem 2 2023, Sem 2 2024",
   "Highest student satisfaction band",
   #
-  "Business and Economic Statistics", "Undergraduate and postgraduate",
+  "Business and Economic Statistics",
+  "Undergraduate and postgraduate",
   "2019, NOV12 2020, Sem 1 2021, 2024",
   "Highest student satisfaction band; One of the top performing units in the Student Evaluation",
   #
-  "Introductory Econometrics", "Undergraduate and postgraduate",
+  "Introductory Econometrics",
+  "Undergraduate and postgraduate",
   "Sem 2 2024",
-  ""
+  "",
+  #
+  "Quantitative Business",
+  "Undergraduate",
+  "Period 5 2025",
+  "",
+  #
 ) %>%
   # detailed_entries(with = unit, where = time, what = letter, when = level)
   detailed_entries(with = unit, when = time, what = letter, where = level)
 ```
 
-\pagebreak
 # Job Market Paper
 
 Forecast Linear Augmented Projection (FLAP): A free lunch to reduce forecast error variance
@@ -167,7 +227,6 @@ Forecast Linear Augmented Projection (FLAP): A free lunch to reduce forecast err
 \textit{Abstract}: 
 We propose a novel forecast linear augmented projection (FLAP) method that can reduce the forecast error variance of any multivariate forecast. The method first constructs new component series which are linear combinations of the original series. Forecasts are then generated for both the original and component series. Finally, the full vector of forecasts is projected onto a linear subspace where the constraints implied by the combination weights hold. We show that the projection using the original forecast error covariance matrix will result in improved forecasts. Notably, the new forecast error variance of each series is non-increasing with the number of components, and mild conditions are established for which it is strictly decreasing. It is also shown that the proposed method achieves maximum forecast error variance reduction among linear projection methods. We demonstrate our proposed method with an estimated covariance matrix using simulations and two empirical applications based on Australian tourism and FRED-MD data. In all cases, forecasts are improved. Notably, using FLAP with Principal Component Analysis (PCA) to construct the new series leads to substantial forecast error variance reduction.
 \end{cvparagraph}
-\vspace{-2pt}
 
 # Publications
 
@@ -179,11 +238,12 @@ bibliography_entries("publications.bib") %>%
   `rownames<-`(NULL)
 ```
 
+1. Yang, Y. F. (to appear), "Forecast Linear Augmented Projection with Targeted Components" in Statistics for Innovation I, Italian Statistical Society Series on Advances in Statistics.
+
 1. Seo, M. H., Koo, B., & Yang, Y. F. (2024). Nonlinear dynamics of Kimchi premium. Economic Modelling, 135, 106726.
 
 1. Yang, Y. F., and Zhao, Z. (2020), “Online Robust Reduced-Rank Regression” in 2020 IEEE 11th Sensor Array and Multichannel Signal Processing Workshop (SAM), pp. 1–5.
 
-\vspace{-2pt}
 
 # Working Papers
 
@@ -196,26 +256,58 @@ bibliography_entries("publications.bib") %>%
 
 1. "Forecast Linear Augmented Reconciliation (FLARe): Reducing hierarchical forecast error variance" 
 
-<!-- 1. "Forecasting Multiple Time Series with One-Sided Dynamic Autoregressive Principal Components" -->
+1. "Forecasting Multiple Time Series with One-Sided Dynamic Autoregressive Principal Components"
 
-<!-- # Professional Activities -->
-\vspace{-2pt}
 
-# Conferences and Talks
+
+\pagebreak
+# Selected Conferences and Talks
 
 ```{r}
 tribble(
-  ~when, ~title, ~where, ~url,
-  "Jul. 2024", "Annual useR! conference", "Salzburg, Austria", "",
-  "Jul. 2024", "44th International Symposium on Forecasting", "Dijon, France", "",
-  "Jun. 2024", "Annual Conference of the International Association for Applied Econometrics", "Thessaloniki,~Greece~\\&~Xiamen,~China", "",
-  "Apr. 2024", "Monash NUMBATs Seminar", "Melbourne, Australia", "",
-  "Jun. 2023", "43rd International Symposium on Forecasting",
-  "Charlottesville, USA", "https://github.com/FinYang/talk.ComponentsForecast",
-  "Jun. 2020", "11th IEEE Sensor Array and Multichannel Signal Processing Workshop",
-  "Virtual", "https://yangzhuoranyang.com/talk/orrrr/",
+  ~when,
+  ~title,
+  ~where,
+  ~url,
+  "Jun. 2025",
+  "45th International Symposium on Forecasting",
+  "Beijing, China",
+  "",
+  "Jun. 2025",
+  "SIS 2025 Statistics for Innovation",
+  "Genoa, Italy",
+  "",
+  "Jul. 2024",
+  "Annual useR! conference",
+  "Salzburg, Austria",
+  "",
+  "Jul. 2024",
+  "44th International Symposium on Forecasting",
+  "Dijon, France",
+  "",
+  "Jun. 2024",
+  "Annual Conference of the International Association for Applied Econometrics",
+  "Thessaloniki,~Greece~\\&~Xiamen,~China",
+  "",
+  "Apr. 2024",
+  "Monash NUMBATs Seminar",
+  "Melbourne, Australia",
+  "",
+  "Jun. 2023",
+  "43rd International Symposium on Forecasting",
+  "Charlottesville, USA",
+  "https://github.com/FinYang/talk.ComponentsForecast",
+  # "Jun. 2020",
+  # "11th IEEE Sensor Array and Multichannel Signal Processing Workshop",
+  # "Virtual",
+  # "https://yangzhuoranyang.com/talk/orrrr/",
 ) %>%
-  brief_entries(glue::glue("\\textbf{<title>}", .open = "<", .close = ">"), when, where, .protect = FALSE)
+  brief_entries(
+    glue::glue("\\textbf{<title>}", .open = "<", .close = ">"),
+    when,
+    where,
+    .protect = FALSE
+  )
 ```
 
 <!-- ## Review activities -->
@@ -233,7 +325,6 @@ tribble(
 <!--   brief_entries(journal, with= time, .protect = FALSE) -->
 <!-- ``` -->
 
-\vspace{-2pt}
 
 # Awards, Grants and Scholarships
 
@@ -248,11 +339,9 @@ tribble(
 - 2018 Monash Business School Prize for the Top Achieving Student in Actuarial Science (Undergraduate) 
 - 2018 Monash University Medal for Undergraduate Academic Excellence
 - 2018 Monash Business School Dean's Honour
-- 2018 Monash Business School Student Excellence Award in recognition of exceptional academic excellence (Business analytics, Modelling in finance and insurance, Applied forecasting for business and economics)
 - 2018 The International Institute of Forecasters Student Forecasting Award
-- 2017 Monash Business School Student Excellence Award in recognition of exceptional academic excellence (Statistical Thinking, Principles of Econometrics, Contingencies in insurance and pensions)
+- 2017 - 2018 Monash Business School Student Excellence Award in recognition of exceptional academic excellence (Statistical Thinking, Principles of Econometrics, Contingencies in insurance and pensions, Business analytics, Modelling in finance and insurance, Applied forecasting for business and economics)
 
-\pagebreak
 
 # Softwares
 
@@ -276,29 +365,4 @@ pkgbib
 ```
 
 
-# Referees
-
-```{r}
-tribble(
-  ~name, ~uni, ~dep, ~loc, ~email,
-  "Professor Rob J Hyndman",
-  "Monash University",
-  "Department of Econometrics & Business Statistics",
-  "Clayton, Australia",
-  "Email: Rob.Hyndman@monash.edu",
-  #
-  "Professor George Athanasopoulos",
-  "Monash University",
-  "Department of Econometrics & Business Statistics",
-  "Clayton, Australia",
-  "Email: George.Athanasopoulos@monash.edu",
-  #
-  "Associate Professor Anastasios Panagiotelis",
-  "University of Sydney Business School",
-  "Discipline of Business Analytics",
-  "Darlington, Australia",
-  "Email: Anastasios.Panagiotelis@sydney.edu.au",
-) %>%
-  detailed_entries(dep, loc, name, uni, email)
-```
 
