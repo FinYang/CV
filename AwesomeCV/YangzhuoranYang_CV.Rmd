@@ -1,7 +1,7 @@
 ---
 name: Yangzhuoran Fin Yang
 position: "Postdoctoral Researcher in Econometrics"
-address: "Maastricht University, Netherlands"
+address: "Maastricht University, the Netherlands"
 # phone: +61 414 060 712
 www: yangzhuoranyang.com
 email: "Yangzhuoran.Yang@maastrichtuniversity.nl"
@@ -42,6 +42,28 @@ write_packages_bib(
   ),
   file = "Rpackages.bib"
 )
+```
+
+
+# Current Position
+
+```{r}
+#| eval: true
+
+tribble(
+  ~role,
+  ~company,
+  ~loc,
+  ~dates,
+  ~details,
+  "Postdoctoral Researcher",
+  "Maastricht University",
+  "Maastricht, the Netherlands",
+  "Mar. 2025 - Present",
+  "Department of Quantitative Economics, School of Business and Economics",
+) %>%
+  detailed_entries(company, dates, role, loc, details)
+
 ```
 
 # Education
@@ -107,12 +129,6 @@ tribble(
   ~loc,
   ~dates,
   ~details,
-  "Postdoctoral Researcher",
-  "Maastricht University",
-  "Maastricht, Netherlands",
-  "Mar. 2025 - Present",
-  "Department of Quantitative Economics, School of Business and Economics",
-  #
   "Teaching Associate",
   "Monash University",
   "Clayton, Australia",
@@ -177,36 +193,35 @@ tribble(
   ~level,
   ~time,
   ~letter,
+  "Quantitative Business",
+  "Undergraduate",
+  "Period 5 2025 | Maastricht University",
+  "",
 
-  "Applied Forecasting",
-  "Undergraduate and postgraduate",
-  "Sem 1 2022,  Sem 1 2023",
-  "Highest student satisfaction band; One of the top performing units in the Student Evaluation",
-  #
-  "Advanced Statistical Modelling",
-  "Undergraduate and postgraduate",
-  "Sem 2 2022, Sem 1 2023",
-  "Highest student satisfaction band",
-  #
   "Principles of Econometrics",
   "Undergraduate and postgraduate",
-  "Sem 2 2023, Sem 2 2024",
+  "Sem 2 2023, Sem 2 2024 | Monash University",
   "Highest student satisfaction band",
-  #
-  "Business and Economic Statistics",
-  "Undergraduate and postgraduate",
-  "2019, NOV12 2020, Sem 1 2021, 2024",
-  "Highest student satisfaction band; One of the top performing units in the Student Evaluation",
   #
   "Introductory Econometrics",
   "Undergraduate and postgraduate",
-  "Sem 2 2024",
+  "Sem 2 2024 | Monash University",
   "",
   #
-  "Quantitative Business",
-  "Undergraduate",
-  "Period 5 2025",
-  "",
+  "Advanced Statistical Modelling",
+  "Undergraduate and postgraduate",
+  "Sem 2 2022, Sem 1 2023 | Monash University",
+  "Highest student satisfaction band",
+  #
+  "Applied Forecasting",
+  "Undergraduate and postgraduate",
+  "Sem 1 2022,  Sem 1 2023 | Monash University",
+  "Highest student satisfaction band; One of the top performing units in the Student Evaluation",
+  #
+  "Business and Economic Statistics",
+  "Undergraduate and postgraduate",
+  "2019, NOV12 2020, Sem 1 2021, 2024 | Monash University",
+  "Highest student satisfaction band; One of the top performing units in the Student Evaluation",
   #
 ) %>%
   # detailed_entries(with = unit, where = time, what = letter, when = level)
@@ -255,6 +270,29 @@ bibliography_entries("publications.bib") %>%
 
 
 \pagebreak
+
+# Softwares
+
+```{r r-packages}
+#| eval: true
+# Sort R packages by title, then year.
+options("encoding" = "UTF-8")
+pkgbib <- bibliography_entries("Rpackages.bib") %>%
+  arrange(title, issued)
+# solve ' display issue on windows
+pkgbib$author <- pkgbib$author %>%
+  lapply(function(lname) {
+    lapply(lname, function(lname2) {
+      lapply(lname2, function(x) {
+        gsub("â€™", "'", x)
+      })
+    })
+  }) %>%
+  `class<-`(class(pkgbib$author))
+pkgbib
+```
+
+\vspace{-1mm}
 # Selected Conferences and Talks
 
 ```{r}
@@ -319,7 +357,7 @@ tribble(
 <!--   brief_entries(journal, with= time, .protect = FALSE) -->
 <!-- ``` -->
 
-
+\vspace{-1mm}
 # Awards, Grants and Scholarships
 
 - 2024 Monash Business School Prestigious International Conference Award
@@ -337,26 +375,6 @@ tribble(
 - 2017 - 2018 Monash Business School Student Excellence Award in recognition of exceptional academic excellence (Statistical Thinking, Principles of Econometrics, Contingencies in insurance and pensions, Business analytics, Modelling in finance and insurance, Applied forecasting for business and economics)
 
 
-# Softwares
-
-```{r r-packages}
-#| eval: true
-# Sort R packages by title, then year.
-options("encoding" = "UTF-8")
-pkgbib <- bibliography_entries("Rpackages.bib") %>%
-  arrange(title, issued)
-# solve ' display issue on windows
-pkgbib$author <- pkgbib$author %>%
-  lapply(function(lname) {
-    lapply(lname, function(lname2) {
-      lapply(lname2, function(x) {
-        gsub("â€™", "'", x)
-      })
-    })
-  }) %>%
-  `class<-`(class(pkgbib$author))
-pkgbib
-```
 
 
 
